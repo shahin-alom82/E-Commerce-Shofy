@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Middle Header */
+@layer components {
+      .menu-icon-style {
+            @apply flex items-center gap-x-1 border-r-[2px] text-[14px] border-r-gray-400 px-4
+      }
+}
