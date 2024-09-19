@@ -12,6 +12,7 @@ import { twMerge } from "tailwind-merge";
 interface Props {
       className: string,
       product: ProductType;
+      quantity : number
 }
 
 
