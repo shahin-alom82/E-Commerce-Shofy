@@ -1,4 +1,3 @@
-"use client"
 import AddToCartButton from "@/components/AddToCartButton";
 import { getData } from "@/components/helper/Helper";
 import ProductImage from "@/components/ProductImage";

@@ -1,5 +1,3 @@
-
-"use client"
 import { ProductType } from "@/type";
 import Container from "./Container";
 import ProductCart from "./ProductCart";

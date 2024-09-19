@@ -98,12 +98,12 @@ const Footer = () => {
                   </Container>
                   <Container className="lg:flex md:flex-row  items-center justify-between py-6">
                         <p className="text-gray-800">© 2024 All Rights Reserved | HTML Template by Themepure.</p>
-                        <div className="flex items-center gap-2">
+                        {/* <div className="flex items-center gap-2">
                               <img className="h-6 w-14" src="https://ecrlib.org/wp-content/uploads/2023/03/PayPal-Logo.png" alt="" />
                               <img className="h-6 w-14" src="https://logolook.net/wp-content/uploads/2023/09/Visa-Logo-2006.png" alt="" />
                               <img className="h-6 w-14" src="https://pngimg.com/uploads/mastercard/mastercard_PNG23.png" alt="" />
                               <img className="h-6 w-14" src="https://images.startups.co.uk/wp-content/uploads/2020/10/Stripe-Payments.png" alt="" />
-                        </div>
+                        </div> */}
                   </Container>
             </div>
       );
