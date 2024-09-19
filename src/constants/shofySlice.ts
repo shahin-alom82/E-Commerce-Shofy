@@ -20,7 +20,6 @@ export const shofySlice = createSlice({
 
       reducers: {
             addToCart: (state, action) => {
-
                   const shofyProduct = state.cart.find((item) => item.id === action.payload.id)
                   if (shofyProduct) {
                         toast.error("Product already exit");

@@ -5,7 +5,7 @@ import BottomHeader from './BottomHeader';
 
 const Header = () => {
       return (
-            <div>
+            <div className=''>
                   <TopHeader />
                   <MiddleHeader />
                   <BottomHeader />

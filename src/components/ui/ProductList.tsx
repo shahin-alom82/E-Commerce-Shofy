@@ -6,13 +6,6 @@ import ProductCart from "./ProductCart";
 import { getData } from "../helper/Helper";
 
 
-interface Props {
-      productsData: {
-            products: ProductType[];
-      };
-}
-
-
 
 const ProductList = async () => {
 

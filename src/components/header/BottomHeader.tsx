@@ -7,7 +7,6 @@ import { signOut, useSession } from "next-auth/react";
 
 const BottomHeader = () => {
       const { data: session } = useSession();
-
       return (
             <div>
                   <Container className="flex items-center justify-between mt-2">
@@ -18,7 +17,6 @@ const BottomHeader = () => {
                                                 <li className="cursor-pointer hover:text-themeColor  duration-500 group relative overflow-hidden" key={index}>{item.title}
                                                       <span className="w-full h-[1px] bg-themeColor inline-block absolute bottom-0 left-0 -translate-x-[100%] group-hover:translate-x-0 duration-500"></span>
                                                 </li>
-
                                           </Link>
 
                                     ))

@@ -13,7 +13,7 @@ const ProductsPage = async ({ params }) => {
 
       return (
             <div>
-                  <Container className="py-10 flex items-center justify-between gap-10">
+                  <Container className="py-10 flex flex-col lg:flex-row items-center justify-between gap-10">
                         <ProductImage product={product} />
                         <div>
                               <h1>{product?.category}</h1>

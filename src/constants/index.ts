@@ -1,4 +1,3 @@
-import { bannerOneimage } from "@/assets"
 
 export const navLink = [
       { title: "Home", path: "/" },
@@ -8,14 +7,14 @@ export const navLink = [
       { title: "Contact", path: "/contact" },
 ]
 
-export const banner = {
-      _id: 1001,
-      priceText: "Starting at $ 270.00",
-      titleOne: "The best tablet",
-      titleTwo: "Collection 2024",
-      textOne: "Exclusive offer",
-      offerPrice: "-30%",
-      textTwo: "off this week",
-      buttonLink: "/products",
-      img: bannerOneimage,
-}
+// export const banner = {
+//       _id: 1001,
+//       priceText: "Starting at $ 270.00",
+//       titleOne: "The best tablet",
+//       titleTwo: "Collection 2024",
+//       textOne: "Exclusive offer",
+//       offerPrice: "-30%",
+//       textTwo: "off this week",
+//       buttonLink: "/products",
+//       img: bannerOneimage,
+// }
