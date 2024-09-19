@@ -39,7 +39,7 @@ const MiddleHeader = () => {
             else {
                   dispatch(removeUser())
             }
-      }, [session?.user])
+      }, [dispatch,session?.user])
 
 
       return (

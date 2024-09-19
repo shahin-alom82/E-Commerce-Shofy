@@ -11,7 +11,7 @@ const NotFoundPage = () => {
                   <p className="text-2xl font-semibold">Oops! Page not found</p>
                   <p className="text-sm text-gray-500 max-w-80 text-center">
                         Whoops, this is embarrassing. Looks like the page you were looking for
-                        wasn't found.
+                        wasnt found.
                   </p>
                   <Button href="/">Back to Home</Button>
             </Container>
