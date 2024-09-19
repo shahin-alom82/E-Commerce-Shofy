@@ -3,6 +3,8 @@ import { getData } from "@/components/helper/Helper";
 import ProductImage from "@/components/ProductImage";
 import Container from "@/components/ui/Container";
 import { ProductType } from "@/type";
+
+
 // @ts-ignore
 const ProductsPage = async ({ params }) => {
       const { id } = params;
@@ -26,7 +28,7 @@ const ProductsPage = async ({ params }) => {
                               </div>
                               <h1 className="mt-4 text-gray-800 w-[550px]">{product?.description}</h1>
                               <div className="w-52 mt-4">
-                                    <AddToCartButton className="" product={product} />
+                                    <AddToCartButton className="" product={product} quantity={product?.quantity || 1} />
                               </div>
                         </div>
                   </Container>
