@@ -8,22 +8,15 @@ import PriceFormate from "../ui/PriceFormate";
 import { useDispatch } from "react-redux";
 import { cartDelete } from "@/constants/shofySlice";
 import toast from "react-hot-toast";
+import { ProductType } from "@/type";
 
 
-interface ProductType {
-      id: string;
-      title: string;
-      brand: string;
-      category: string;
-      images: string[];
-      price: number;
-      quantity?: number;
-      discountPercentage: number;
-      availabilityStatus: boolean;
+interface Props {
+      product: ProductType;
 }
 
 
-const CartProduct = ({ product }: { product: ProductType }) => {
+const CartProduct = ({ product }: Props) => {
 
       const dispatch = useDispatch()
       const handleDelete = () => {
@@ -45,7 +38,7 @@ const CartProduct = ({ product }: { product: ProductType }) => {
                         </div>
                         <div className="flex gap-6 items-center text-start">
                               <PriceFormate className="mt-4" amount={product?.price * product?.quantity!} />
-                              <AddToCartButton  product={product} className="gap-4" />
+                              <AddToCartButton product={product} className="gap-4" />
                         </div>
                         <div className="flex flex-col lg:flex-row items-center gap-2 mt-2 text-sm">
                               <h1 className="flex lg:items-center gap-2"> <ImCheckmark size={10} className="text-green-500" /> {product?.availabilityStatus && (<p>In Stock</p>)}</h1>
