@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Container from "./Container";
 import { logo } from "@/assets";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaCcMastercard, FaCcPaypal, FaCcStripe, FaCcVisa, FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { SiInstagram } from "react-icons/si";
 import { GoDotFill } from "react-icons/go";
 import { MdOutlineAddLocationAlt, MdOutlineAttachEmail } from "react-icons/md";
@@ -98,12 +98,14 @@ const Footer = () => {
                   </Container>
                   <Container className="lg:flex md:flex-row  items-center justify-between py-6">
                         <p className="text-gray-800">© 2024 All Rights Reserved | HTML Template by Themepure.</p>
-                        {/* <div className="flex items-center gap-2">
-                              <img className="h-6 w-14" src="https://ecrlib.org/wp-content/uploads/2023/03/PayPal-Logo.png" alt="" />
-                              <img className="h-6 w-14" src="https://logolook.net/wp-content/uploads/2023/09/Visa-Logo-2006.png" alt="" />
-                              <img className="h-6 w-14" src="https://pngimg.com/uploads/mastercard/mastercard_PNG23.png" alt="" />
-                              <img className="h-6 w-14" src="https://images.startups.co.uk/wp-content/uploads/2020/10/Stripe-Payments.png" alt="" />
-                        </div> */}
+                        <div className="flex items-center gap-2 text-bannercyan">
+
+                              <FaCcStripe size={40} />
+                              <FaCcVisa size={40} />
+                              <FaCcMastercard size={40} />
+                              <FaCcPaypal size={40} />
+
+                        </div>
                   </Container>
             </div>
       );

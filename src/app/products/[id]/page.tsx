@@ -19,10 +19,10 @@ const ProductsPage = async ({ params }: Props) => {
       const product: ProductType = await getData(endpoint);
 
       return (
-            <div>
-                  <Container className="py-10 flex flex-col lg:flex-row items-center justify-between gap-10">
+            <div className="py-10 lg:px-0 px-4">
+                  <Container className="flex  flex-col lg:flex-row items-center justify-between gap-10 border-2  border-gray-300">
                         <ProductImage product={product} />
-                        <div>
+                        <div className="lg:px-0 w-full md:w-3/4 lg:w-2/3">
                               <h1>{product?.category}</h1>
                               <h1 className="text-3xl text-gray-700 mt-2">{product?.title}</h1>
                               <div className="mt-4">
@@ -32,8 +32,8 @@ const ProductsPage = async ({ params }: Props) => {
                                           </span>
                                     )}
                               </div>
-                              <h1 className="mt-4 text-gray-800 w-[550px]">{product?.description}</h1>
-                              <div className="w-52 mt-4">
+                              <h1 className="mt-4 text-gray-800 lg:w-[550px]">{product?.description}</h1>
+                              <div className="w-52 mt-4 lg:mb-0 mb-8 lg:ml-0 ml-8">
                                     <AddToCartButton className="" product={product} />
                               </div>
                         </div>

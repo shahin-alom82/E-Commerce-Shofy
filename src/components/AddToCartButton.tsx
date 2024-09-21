@@ -60,7 +60,7 @@ const AddToCartButton = ({ product, className }: PropstType) => {
                                     </span>
                               </div>
                               :
-                              <button onClick={handleAddToCart} className="w-full h-10 mt-4 hover:bg-themeColor cursor-pointer duration-300 border border-themeColor hover:text-white rounded-full">Add To Cart</button>
+                              <button onClick={handleAddToCart} className="w-full lg:h-10 mt-4 h-5 hover:bg-themeColor cursor-pointer duration-300 border border-themeColor hover:text-white rounded-full lg:text-[16px] text-[12px]">Add To Cart</button>
                   }
             </div>
       );

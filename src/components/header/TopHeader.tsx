@@ -5,7 +5,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 const TopHeader = () => {
     return (
-        <div className='bg-black'>
+        <div className='bg-black hidden md:block'>
             <Container className='flex flex-col sm:flex-row justify-between items-center py-2 sm:py-1'>
                 <h1 className='flex text-white gap-2 items-center text-center sm:text-left text-[12px] sm:text-[14px]'>
                     <CiDeliveryTruck className='text-[#ffb342] cursor-pointer' size={20} />

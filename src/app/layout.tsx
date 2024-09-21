@@ -22,7 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Layout>
-          <Header />
+          <div className="sticky z-50 top-0">
+            <Header />
+          </div>
           {children}
           <Footer />
           <Toaster

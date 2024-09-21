@@ -41,9 +41,9 @@ const ProductCart = ({ product }: Props) => {
                         <Link
                               href={{ pathname: `/products/${product.id}`, query: { id: product.id } }}
                         >
-                              <Image className="h-48 w-44 object-contain group-hover:scale-110 duration-300" src={product?.images[0]} width={500} height={500} alt="Product-Image" />
+                              <Image className="lg:h-48 lg:w-44 h-24 w-28 object-contain group-hover:scale-110 duration-300" src={product?.images[0]} width={500} height={500} alt="Product-Image" />
                               {product?.rating && (
-                                    <p className="absolute top-4 right-4  bg-orange-400 text-white text-xs font-medium flex products-center py-1 px-2 rounded gap-1">
+                                    <p className="absolute lg:top-4 lg:right-4 top-2 right-2  bg-orange-400 text-white lg:text-xs text-[10px] font-medium flex products-center lg:py-1 lg:px-2 gap-1 py-0.5 px-1">
                                           {product?.rating} <FaStar />
                                     </p>
                               )}
@@ -53,12 +53,12 @@ const ProductCart = ({ product }: Props) => {
 
                   </div>
                   {/* Text Bar */}
-                  <div className="px-4 py-5">
+                  <div className="px-4 lg:py-5 py-3">
                         <h1 className="font-medium text-gray-800">{product.category}</h1>
-                        <h1 className="text-[20px] mt-1 font-medium">{product.title}</h1>
+                        <h1 className="text-[20px] text-sm mt-1 font-medium">{product.title}</h1>
                         <h1 className="mt-2 text-themeColor"><PriceFormate className="" amount={product.price} /></h1>
                         {/* add Button */}
-                        <AddToCartButton className="" product={product} />
+                        <AddToCartButton className="lg:text-[16px] text-[12px]" product={product} />
                   </div>
             </div>
       );

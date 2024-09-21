@@ -6,10 +6,10 @@ import { bannerThreeSlider1, sliderimageOffer } from "@/assets";
 const HomeBannerThree = () => {
       return (
             <div className="mt-10">
-                  <Container className="bg-bannercyan rounded-md flex justify-between">
+                  <Container className="bg-bannercyan rounded-md flex flex-col lg:flex-row justify-between">
                         <div className="mt-24 px-20 text-white">
                               <h1>TEBLET COLLECTION 2024</h1>
-                              <div className="lg:text-5xl text-3xl font-semibold mt-2">
+                              <div className="lg:text-5xl text-xl font-semibold mt-2">
                                     <p>Samsug Galaxy Tab</p>
                                     <p className="mt-3">S6, Wifi Tablet</p>
                               </div>

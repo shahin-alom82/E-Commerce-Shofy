@@ -39,36 +39,38 @@ const MiddleHeader = () => {
             else {
                   dispatch(removeUser())
             }
-      }, [dispatch,session?.user])
+      }, [dispatch, session?.user])
 
 
       return (
-            <div className="border border-gray-400 pb-4">
-                  <Container className="flex justify-between items-center mt-4 ">
+            <div className="border-b border-gray-400 pb-4 py-4 bg-white opacity-85">
+                  <Container className="flex justify-between items-center">
                         <Link href="/">
                               <Image src={logo} alt="Logo" width={120} height={60} />
                         </Link>
-                        <div className="flex relative">
-                              <input
-                                    type="text"
-                                    value={searchValue}
-                                    onChange={(e) => setSearchValue(e.target.value)}
-                                    placeholder="Search Products Here..."
-                                    className="py-2 px-6 border-2 border-gray-400 relative w-[600px] outline-none hover:border-2 hover:border-themeColor pr-10 focus-visible:border-themeColor"
-                                    aria-label="Search Products"
-                              />
-                              <button className="py-3 px-4 bg-themeColor border-2 border-themeColor text-white" aria-label="Search Button">
-                                    <FaSearch size={20} />
-                              </button>
-
-                              {searchValue && (
-                                    <RxCross2
-                                          size={20}
-                                          onClick={() => setSearchValue("")}
-                                          className="absolute right-[68px] text-gray-500 cursor-pointer hover:text-red-500 duration-500 top-[12px]"
-                                          aria-label="Clear Search"
+                        <div className="hidden md:block">
+                              <div className="flex relative">
+                                    <input
+                                          type="text"
+                                          value={searchValue}
+                                          onChange={(e) => setSearchValue(e.target.value)}
+                                          placeholder="Search Products Here..."
+                                          className="py-2 px-6 border-2 border-gray-400 relative w-[600px] outline-none hover:border-2 hover:border-themeColor pr-10 focus-visible:border-themeColor"
+                                          aria-label="Search Products"
                                     />
-                              )}
+                                    <button className="py-3 px-4 bg-themeColor border-2 border-themeColor text-white" aria-label="Search Button">
+                                          <FaSearch size={20} />
+                                    </button>
+
+                                    {searchValue && (
+                                          <RxCross2
+                                                size={20}
+                                                onClick={() => setSearchValue("")}
+                                                className="absolute right-[68px] text-gray-500 cursor-pointer hover:text-red-500 duration-500 top-[12px]"
+                                                aria-label="Clear Search"
+                                          />
+                                    )}
+                              </div>
                         </div>
                         <div className="flex items-center gap-10">
                               {/* user */}
@@ -81,7 +83,7 @@ const MiddleHeader = () => {
                                                       </div>
 
 
-                                                      <div>
+                                                      <div className="hidden md:block">
                                                             <p>Hello, <span>{session?.user?.name}</span></p>
                                                             <h1 className="text-[14px] font-medium"> View profile</h1>
                                                       </div>
@@ -96,7 +98,7 @@ const MiddleHeader = () => {
                                                       <CiUser size={25} />
 
                                                 </div>
-                                                <div>
+                                                <div className="hidden md:block">
                                                       <p>Hello, Guest</p>
                                                       <p className="font-semibold">Login / Register</p>
                                                 </div>
