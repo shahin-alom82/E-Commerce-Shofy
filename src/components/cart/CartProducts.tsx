@@ -5,6 +5,8 @@ import Button from "../ui/Button";
 import CartProduct from "./CartProdut";
 import CartSummary from "./CartSummary";
 
+
+
 const CartProducts = () => {
   const { cart } = useSelector((state: any) => state.shofy);
 
@@ -18,7 +20,7 @@ const CartProducts = () => {
             </h1>
             <div className="flex flex-col lg:flex-row justify-between gap-6 mt-10">
               <div className="w-full lg:w-2/3 border-t-2 border-r-2 border-l-2 border-gray-300">
-                {cart.map((product) => (
+                {cart.map((product : any) => (
                   <CartProduct key={product?.id} product={product} />
                 ))}
               </div>
