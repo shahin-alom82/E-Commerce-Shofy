@@ -6,6 +6,7 @@ import { FaStar } from "react-icons/fa";
 import { FiEye } from "react-icons/fi";
 import { GrFavorite } from "react-icons/gr";
 import AddToCartButton from "../AddToCartButton";
+import PriceFormate from "./PriceFormate";
 
 interface Props {
       product: ProductType;
@@ -55,7 +56,7 @@ const ProductCart = ({ product }: Props) => {
                   <div className="px-4 py-5">
                         <h1 className="font-medium text-gray-800">{product.category}</h1>
                         <h1 className="text-[20px] mt-1 font-medium">{product.title}</h1>
-                        <h1 className="mt-2 text-themeColor">{product.price}</h1>
+                        <h1 className="mt-2 text-themeColor"><PriceFormate className="" amount={product.price} /></h1>
                         {/* add Button */}
                         <AddToCartButton className="" product={product} />
                   </div>

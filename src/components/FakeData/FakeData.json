@@ -2,7 +2,6 @@
       {
             "id": 1,
             "title": "Wireless Bluetooth Headphones",
-            "category":"Headphone",
             "description": "High-quality sound with noise cancellation.",
             "price": 59.99,
             "oldPrice": 89.99,
@@ -12,196 +11,6 @@
       },
       {
             "id": 2,
-            "title": "Smart LED TV 55 Inch",
-            "description": "4K UHD with vibrant colors and smart features.",
-            "price": 499.99,
-            "oldPrice": 699.99,
-            "discountPrice": 5.62,
-            "rating": 5,
-            "image": "https://i.ibb.co/6mrww7F/LED-TV.jpg"
-      },
-      {
-            "id": 3,
-            "title": "Portable Air Purifier",
-            "description": "Compact design with HEPA filter for clean air.",
-            "price": 79.99,
-            "oldPrice": 129.99,
-            "discountPrice": 3.66,
-            "rating": 4,
-            "image": "https://i.ibb.co/nQ2HZ6N/Best-Air-Purifiers-For-Large-Rooms.png"
-      },
-      {
-            "id": 4,
-            "title": "Electric Kettle",
-            "description": "Fast boiling with auto shut-off feature.",
-            "price": 29.99,
-            "oldPrice": 39.99,
-            "discountPrice": 2.66,
-            "rating": 3,
-            "image": "https://i.ibb.co/2gHMThw/Electric-Ketli.jpg"
-      },
-      {
-            "id": 5,
-            "title": "Gaming Laptop",
-            "description": "High-performance laptop with dedicated graphics.",
-            "price": 1199.99,
-            "oldPrice": 1499.99,
-            "discountPrice": 8.66,
-            "rating": 4,
-            "image": "https://i.ibb.co/VYNdCxq/Gaming-Laptop.jpg"
-      },
-      {
-            "id": 6,
-            "title": "Fitness Tracker",
-            "description": "Monitor your health and activity levels.",
-            "price": 49.99,
-            "oldPrice": 79.99,
-            "discountPrice": 5.66,
-            "rating": 2,
-            "image": "https://i.ibb.co/9WVDP9t/Jim-Man.jpg"
-      },
-      {
-            "id": 7,
-            "title": "Smart phone 128GB",
-            "description": "Latest model with high-resolution camera.",
-            "price": 899.99,
-            "oldPrice": 1099.99,
-            "discountPrice": 5.88,
-            "rating": 3,
-            "image": "https://i.ibb.co/pjvwrY5/Phone.jpg"
-      },
-      {
-            "id": 8,
-            "title": "Wireless Charger",
-            "description": "Fast charging for all compatible devices.",
-            "price": 24.99,
-            "oldPrice": 34.99,
-            "discountPrice": 1.26,
-            "rating": 4,
-            "image": "https://i.ibb.co/Gnqtgrs/Wireles-Charger.jpg"
-      },
-      {
-            "id": 9,
-            "title": "Digital Camera",
-            "description": "Capture high-quality photos and videos.",
-            "price": 349.99,
-            "oldPrice": 449.99,
-            "discountPrice": 5.66,
-            "rating": 4,
-            "image": "https://i.ibb.co/wCthtdB/Digital-Camera.jpg"
-      },
-      {
-            "id": 10,
-            "title": "Bluetooth Speaker",
-            "description": "Portable speaker with deep bass.",
-            "price": 39.99,
-            "oldPrice": 59.99,
-            "discountPrice": 4.66,
-            "rating": 5,
-            "image": "https://i.ibb.co/CVHT1m6/Bluetooth-Speaker.jpg"
-      },
-      {
-            "id": 11,
-            "title": "4-Slice Toaster",
-            "description": "Make perfect toast every morning.",
-            "price": 49.99,
-            "oldPrice": 69.99,
-            "discountPrice": 4.46,
-            "rating": 3,
-            "image": "https://i.ibb.co/9csjQpR/Drupal-Banner.jpg"
-      },
-      {
-            "id": 12,
-            "title": "Smart watch",
-            "description": "Stay connected and track your fitness.",
-            "price": 199.99,
-            "oldPrice": 249.99,
-            "discountPrice": 2.66,
-            "rating": 5,
-            "image": "https://i.ibb.co/XLd51dt/Digital-Watch.png"
-      },
-      {
-            "id": 13,
-            "title": "Cordless Vacuum Cleaner",
-            "description": "Lightweight design for easy cleaning.",
-            "price": 159.99,
-            "oldPrice": 199.99,
-            "discountPrice": 5.76,
-            "rating": 2,
-            "image": "https://i.ibb.co/vBM17WB/Cleaner-Machine.jpg"
-      },
-      {
-            "id": 14,
-            "title": "Home Security Camera",
-            "description": "Keep an eye on your home from anywhere.",
-            "price": 79.99,
-            "oldPrice": 99.99,
-            "discountPrice": 2.76,
-            "rating": 4,
-            "image": "https://i.ibb.co/gz69sBK/Security-Camera-group.jpg"
-      },
-      {
-            "id": 15,
-            "title": "Electric Toothbrush",
-            "description": "Ensure a thorough clean with every brush.",
-            "price": 29.99,
-            "oldPrice": 49.99,
-            "discountPrice": 1.66,
-            "rating": 5,
-            "image": "https://i.ibb.co/mtw1x0s/Electric-Brush.jpg"
-      },
-      {
-            "id": 16,
-            "title": "Noise Cancelling Headphones",
-            "description": "Block out distractions with active noise cancellation.",
-            "price": 129.99,
-            "oldPrice": 199.99,
-            "discountPrice": 3.69,
-            "rating": 3,
-            "image": "https://i.ibb.co/9TjJ78Z/Wirles-Headphone.jpg"
-      },
-      {
-            "id": 17,
-            "title": "Tablet 10.1 Inch",
-            "description": "Portable entertainment with a high-resolution display.",
-            "price": 199.99,
-            "oldPrice": 299.99,
-            "discountPrice": 4.62,
-            "rating": 4,
-            "image": "https://i.ibb.co/mB9JLvz/51-Eh-WS9p-Rn-L-AC-UF894-1000-QL80.jpg"
-      },
-      {
-            "id": 18,
-            "title": "Espresso Machine",
-            "description": "Brew barista-quality coffee at home.",
-            "price": 249.99,
-            "oldPrice": 349.99,
-            "discountPrice": 5.36,
-            "rating": 3,
-            "image": "https://i.ibb.co/8jyBr0T/Pexels-Chevanon.jpg"
-      },
-      {
-            "id": 19,
-            "title": "Smart Light Bulb",
-            "description": "Control your lights with your voice or phone.",
-            "price": 19.99,
-            "oldPrice": 29.99,
-            "discountPrice": 1.76,
-            "rating": 4,
-            "image": "https://i.ibb.co/gJQ4ygr/189724-2023-1.jpg"
-      },
-      {
-            "id": 20,
-            "title": "Laptop Stand",
-            "description": "Ergonomic design for better posture.",
-            "price": 29.99,
-            "oldPrice": 39.99,
-            "discountPrice": 1.23,
-            "rating": 5,
-            "image": "https://i.ibb.co/K2L17C5/Laptop-Stand.jpg"
-      },
-      {
-            "id": 21,
             "title": "Bluetooth Earbuds",
             "description": "True wireless earbuds with clear sound.",
             "price": 49.99,
@@ -211,87 +20,287 @@
             "image": "https://i.ibb.co/ZS96JzY/soundpeats.jpg"
       },
       {
+            "id": 3,
+            "title": "Noise Cancelling Headphones",
+            "description": "Block out distractions with active noise cancellation.",
+            "price": 129.99,
+            "oldPrice": 199.99,
+            "discountPrice": 3.69,
+            "rating": 3,
+            "image": "https://i.ibb.co/9TjJ78Z/Wirles-Headphone.jpg"
+      },
+      {
+            "id": 4,
+            "title": "Smart phone 128GB",
+            "description": "Latest model with high-resolution camera.",
+            "price": 899.99,
+            "oldPrice": 919.99,
+            "discountPrice": 5.88,
+            "rating": 3,
+            "image": "https://i.ibb.co/pjvwrY5/Phone.jpg"
+      },
+      {
+            "id": 5,
+            "title": "iphone 16 Pro Max",
+            "description": "iPhone 16 Pro Max: Ultimate power, sleek design.",
+            "price": 1000.99,
+            "oldPrice": 1012.99,
+            "discountPrice": 5.88,
+            "rating": 3,
+            "image": "https://i.ibb.co.com/L6dhV80/iphone.jpg"
+      },
+      {
+            "id": 6,
+            "title": "Smart LED TV 55 Inch",
+            "description": "4K UHD with vibrant colors and smart features.",
+            "price": 499.99,
+            "oldPrice": 699.99,
+            "discountPrice": 5.62,
+            "rating": 5,
+            "image": "https://i.ibb.co/6mrww7F/LED-TV.jpg"
+      },
+      {
+            "id": 7,
+            "title": "Portable Air Purifier",
+            "description": "Compact design with HEPA filter for clean air.",
+            "price": 79.99,
+            "oldPrice": 129.99,
+            "discountPrice": 3.66,
+            "rating": 4,
+            "image": "https://i.ibb.co/nQ2HZ6N/Best-Air-Purifiers-For-Large-Rooms.png"
+      },
+      {
+            "id": 8,
+            "title": "Electric Kettle",
+            "description": "Fast boiling with auto shut-off feature.",
+            "price": 29.99,
+            "oldPrice": 39.99,
+            "discountPrice": 2.66,
+            "rating": 3,
+            "image": "https://i.ibb.co/2gHMThw/Electric-Ketli.jpg"
+      },
+      {
+            "id": 9,
+            "title": "Gaming Laptop",
+            "description": "High-performance laptop with dedicated graphics.",
+            "price": 1199.99,
+            "oldPrice": 1499.99,
+            "discountPrice": 8.66,
+            "rating": 4,
+            "image": "https://i.ibb.co/VYNdCxq/Gaming-Laptop.jpg"
+      },
+      {
+            "id": 10,
+            "title": "Fitness Tracker",
+            "description": "Monitor your health and activity levels.",
+            "price": 49.99,
+            "oldPrice": 79.99,
+            "discountPrice": 5.66,
+            "rating": 2,
+            "image": "https://i.ibb.co/9WVDP9t/Jim-Man.jpg"
+      },
+      {
+            "id": 11,
+            "title": "Wireless Charger",
+            "description": "Fast charging for all compatible devices.",
+            "price": 24.99,
+            "oldPrice": 34.99,
+            "discountPrice": 1.26,
+            "rating": 4,
+            "image": "https://i.ibb.co/Gnqtgrs/Wireles-Charger.jpg"
+      },
+      {
+            "id": 12,
+            "title": "Digital Camera",
+            "description": "Capture high-quality photos and videos.",
+            "price": 349.99,
+            "oldPrice": 449.99,
+            "discountPrice": 5.66,
+            "rating": 4,
+            "image": "https://i.ibb.co/wCthtdB/Digital-Camera.jpg"
+      },
+      {
+            "id": 13,
+            "title": "Bluetooth Speaker",
+            "description": "Portable speaker with deep bass.",
+            "price": 39.99,
+            "oldPrice": 59.99,
+            "discountPrice": 4.66,
+            "rating": 5,
+            "image": "https://i.ibb.co/CVHT1m6/Bluetooth-Speaker.jpg"
+      },
+      {
+            "id": 14,
+            "title": "4-Slice Toaster",
+            "description": "Make perfect toast every morning.",
+            "price": 49.99,
+            "oldPrice": 69.99,
+            "discountPrice": 4.46,
+            "rating": 3,
+            "image": "https://i.ibb.co/9csjQpR/Drupal-Banner.jpg"
+      },
+      {
+            "id": 15,
+            "title": "Smart watch",
+            "description": "Stay connected and track your fitness.",
+            "price": 199.99,
+            "oldPrice": 249.99,
+            "discountPrice": 2.66,
+            "rating": 5,
+            "image": "https://i.ibb.co/XLd51dt/Digital-Watch.png"
+      },
+      {
+            "id": 16,
+            "title": "Cordless Vacuum Cleaner",
+            "description": "Lightweight design for easy cleaning.",
+            "price": 159.99,
+            "oldPrice": 199.99,
+            "discountPrice": 5.76,
+            "rating": 2,
+            "image": "https://i.ibb.co/vBM17WB/Cleaner-Machine.jpg"
+      },
+      {
+            "id": 17,
+            "title": "Home Security Camera",
+            "description": "Keep an eye on your home from anywhere.",
+            "price": 79.99,
+            "oldPrice": 99.99,
+            "discountPrice": 2.76,
+            "rating": 4,
+            "image": "https://i.ibb.co/gz69sBK/Security-Camera-group.jpg"
+      },
+      {
+            "id": 18,
+            "title": "Electric Toothbrush",
+            "description": "Ensure a thorough clean with every brush.",
+            "price": 29.99,
+            "oldPrice": 49.99,
+            "discountPrice": 1.66,
+            "rating": 5,
+            "image": "https://i.ibb.co/mtw1x0s/Electric-Brush.jpg"
+      },
+      {
+            "id": 19,
+            "title": "Tablet 10.1 Inch",
+            "description": "Portable entertainment with a high-resolution display.",
+            "price": 199.99,
+            "oldPrice": 299.99,
+            "discountPrice": 4.62,
+            "rating": 4,
+            "image": "https://i.ibb.co/mB9JLvz/51-Eh-WS9p-Rn-L-AC-UF894-1000-QL80.jpg"
+      },
+      {
+            "id": 20,
+            "title": "Espresso Machine",
+            "description": "Brew barista-quality coffee at home.",
+            "price": 249.99,
+            "oldPrice": 349.99,
+            "discountPrice": 5.36,
+            "rating": 3,
+            "image": "https://i.ibb.co/8jyBr0T/Pexels-Chevanon.jpg"
+      },
+      {
+            "id": 21,
+            "title": "Smart Light Bulb",
+            "description": "Control your lights with your voice or phone.",
+            "price": 19.99,
+            "oldPrice": 29.99,
+            "discountPrice": 1.76,
+            "rating": 4,
+            "image": "https://i.ibb.co/gJQ4ygr/189724-2023-1.jpg"
+      },
+      {
             "id": 22,
+            "title": "Laptop Stand",
+            "description": "Ergonomic design for better posture.",
+            "price": 29.99,
+            "oldPrice": 39.99,
+            "discountPrice": 1.23,
+            "rating": 5,
+            "image": "https://i.ibb.co/K2L17C5/Laptop-Stand.jpg"
+      },
+      {
+            "id": 23,
             "title": "Electric Pressure Cooker",
             "description": "Cook meals quickly with this multi-functional cooker.",
             "price": 89.99,
             "oldPrice": 129.99,
             "discountPrice": 3.44,
             "rating": 3,
-            "image": "https://example.com/images/pressure-cooker.jpg"
+            "image": "https://i.ibb.co.com/44JMh1P/Electric-Pressure-Cooker.jpg"
       },
       {
-            "id": 23,
+            "id": 24,
             "title": "Wireless Keyboard and Mouse",
             "description": "Comfortable and responsive typing experience.",
             "price": 39.99,
             "oldPrice": 59.99,
             "discountPrice": 2.77,
             "rating": 2,
-            "image": "https://example.com/images/keyboard-mouse.jpg"
+            "image": "https://i.ibb.co.com/pRmY5wh/Wireless-Keyboard-and-Mouse.jpg"
       },
       {
-            "id": 24,
+            "id": 25,
             "title": "Outdoor Security Light",
             "description": "Bright LED light with motion sensor.",
             "price": 34.99,
             "oldPrice": 49.99,
             "discountPrice": 1.45,
             "rating": 4,
-            "image": "https://example.com/images/security-light.jpg"
+            "image": "https://i.ibb.co.com/xjnDBYY/Outdoor-Security-Light.jpg"
       },
       {
-            "id": 25,
+            "id": 26,
             "title": "Digital Picture Frame",
             "description": "Display your favorite memories in high resolution.",
             "price": 99.99,
             "oldPrice": 149.99,
             "discountPrice": 2.44,
             "rating": 5,
-            "image": "https://example.com/images/picture-frame.jpg"
+            "image": "https://i.ibb.co.com/PN4jgfB/Digital-Picture-Frame.jpg"
       },
       {
-            "id": 26,
+            "id": 27,
             "title": "Portable Power Bank",
             "description": "Charge your devices on the go.",
             "price": 24.99,
             "oldPrice": 39.99,
             "discountPrice": 2.66,
             "rating": 4,
-            "image": "https://example.com/images/power-bank.jpg"
+            "image": "https://i.ibb.co.com/h8w5Vjx/Portable-Power-Bank.jpg"
       },
       {
-            "id": 27,
+            "id": 28,
             "title": "Smart Thermostat",
             "description": "Control your home's temperature remotely.",
             "price": 149.99,
             "oldPrice": 199.99,
             "discountPrice": 2.98,
             "rating": 3,
-            "image": "https://example.com/images/thermostat.jpg"
+            "image": "https://i.ibb.co.com/brfcb5t/Smart-Thermostat.jpg"
       },
       {
-            "id": 28,
+            "id": 29,
             "title": "Portable Blender",
             "description": "Blend smoothies on the go.",
             "price": 29.99,
             "oldPrice": 49.99,
             "discountPrice": 1.45,
             "rating": 2,
-            "image": "https://example.com/images/portable-blender.jpg"
+            "image": "https://i.ibb.co.com/HdL11y1/Portable-Blender.jpg"
       },
       {
-            "id": 29,
+            "id": 30,
             "title": "Waterproof Phone Case",
             "description": "Protect your phone from water damage.",
             "price": 19.99,
             "oldPrice": 29.99,
             "discountPrice": 1.13,
             "rating": 4,
-            "image": "https://example.com/images/phone-case.jpg"
+            "image": "https://i.ibb.co.com/TgZJ6Tk/Waterproof-Phone-Case.jpg"
       },
       {
-            "id": 30,
+            "id": 31,
             "title": "Electric Griddle",
             "description": "Cook pancakes, eggs, and more with ease.",
             "price": 49.99,
@@ -301,7 +310,7 @@
             "image": "https://example.com/images/griddle.jpg"
       },
       {
-            "id": 31,
+            "id": 32,
             "title": "Smart Doorbell",
             "description": "See whos at the door from your phone.",
             "price": 89.99,
@@ -311,7 +320,7 @@
             "image": "https://example.com/images/doorbell.jpg"
       },
       {
-            "id": 32,
+            "id": 33,
             "title": "Home Theater System",
             "description": "Immersive sound experience for your home.",
             "price": 299.99,
@@ -321,7 +330,7 @@
             "image": "https://example.com/images/home-theater.jpg"
       },
       {
-            "id": 33,
+            "id": 34,
             "title": "Smart Mirror",
             "description": "Stay connected while you get ready.",
             "price": 149.99,
@@ -331,7 +340,7 @@
             "image": "https://example.com/images/smart-mirror.jpg"
       },
       {
-            "id": 34,
+            "id": 35,
             "title": "Smart Water Bottle",
             "description": "Track your hydration and stay healthy.",
             "price": 39.99,
@@ -341,7 +350,7 @@
             "image": "https://example.com/images/water-bottle.jpg"
       },
       {
-            "id": 35,
+            "id": 36,
             "title": "Portable Bluetooth Printer",
             "description": "Print photos and documents from your phone.",
             "price": 99.99,
@@ -351,7 +360,7 @@
             "image": "https://example.com/images/bluetooth-printer.jpg"
       },
       {
-            "id": 36,
+            "id": 37,
             "title": "Electric Blanket",
             "description": "Stay warm and cozy with adjustable heat settings.",
             "price": 79.99,
@@ -361,7 +370,7 @@
             "image": "https://example.com/images/electric-blanket.jpg"
       },
       {
-            "id": 37,
+            "id": 38,
             "title": "USB-C Hub",
             "description": "Expand your device's connectivity with multiple ports.",
             "price": 29.99,
@@ -371,7 +380,7 @@
             "image": "https://example.com/images/usb-c-hub.jpg"
       },
       {
-            "id": 38,
+            "id": 39,
             "title": "Noise Cancelling Earplugs",
             "description": "Protect your ears from loud noises.",
             "price": 24.99,
@@ -381,7 +390,7 @@
             "image": "https://example.com/images/earplugs.jpg"
       },
       {
-            "id": 39,
+            "id": 40,
             "title": "Rechargeable Flashlight",
             "description": "Bright and durable for outdoor adventures.",
             "price": 39.99,
@@ -391,7 +400,7 @@
             "image": "https://example.com/images/flashlight.jpg"
       },
       {
-            "id": 40,
+            "id": 41,
             "title": "Smart Plug",
             "description": "Control your appliances with your voice or phone.",
             "price": 14.99,
