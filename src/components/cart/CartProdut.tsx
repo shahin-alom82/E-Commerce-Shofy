@@ -33,7 +33,7 @@ const CartProduct = ({ product }: Props) => {
                   <div>
                         <div>
                               <h1 className="mt-2 text-xl text-gray-700 ">{product?.title}</h1>
-                              <h1 className="text-gray-700 mt-1 text-sm">Brand : {product?.brand}</h1>
+                              {/* <h1 className="text-gray-700 mt-1 text-sm">Brand : {product?.brand}</h1> */}
                               <h1 className="text-gray-700 mt-1 text-sm">Category : {product?.category}</h1>
                         </div>
                         <div className="flex gap-6 items-center text-start">
