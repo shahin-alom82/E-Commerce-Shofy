@@ -4,9 +4,15 @@ import ProductImage from "@/components/ProductImage";
 import Container from "@/components/ui/Container";
 import { ProductType } from "@/type";
 
+interface Props {
+      params: {
+            id: string;
+      };
+}
+
 
 // @ts-ignore
-const ProductsPage = async ({ params }) => {
+const ProductsPage = async ({ params }: Props) => {
       const { id } = params;
       const endpoint = `https://dummyjson.com/products/${id}`;
       // @ts-ignore
@@ -28,7 +34,7 @@ const ProductsPage = async ({ params }) => {
                               </div>
                               <h1 className="mt-4 text-gray-800 w-[550px]">{product?.description}</h1>
                               <div className="w-52 mt-4">
-                                    <AddToCartButton className="" product={product} quantity={product?.quantity || 1} />
+                                    <AddToCartButton className="" product={product} />
                               </div>
                         </div>
                   </Container>
