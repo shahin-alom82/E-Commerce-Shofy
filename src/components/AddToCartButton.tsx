@@ -9,14 +9,13 @@ import { useDispatch, useSelector } from "react-redux";
 import { twMerge } from "tailwind-merge";
 
 
-interface Props {
-      className: string,
-      product: ProductType;
-      quantity : number
+interface PropstType {
+      product: ProductType,
+      className: string
 }
 
 
-const AddToCartButton = ({ product, className }: Props) => {
+const AddToCartButton = ({ product, className }: PropstType) => {
 
       const dispatch = useDispatch();
 
@@ -25,7 +24,7 @@ const AddToCartButton = ({ product, className }: Props) => {
       };
 
       // increment decrement er kaj
-      const [existingProduct, setExistingProduct] = useState(null)
+      const [existingProduct, setExistingProduct] = useState<ProductType | null>(null)
       //@ts-ignore
       const { cart } = useSelector((state) => state.shofy)
 
