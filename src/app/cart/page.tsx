@@ -5,8 +5,8 @@ const ProductsPage = () => {
             <div>
                   <CartProducts />
             </div>
-
       );
 };
 
 export default ProductsPage;
+
