@@ -12,8 +12,6 @@ interface Props {
 
 
 const CartSummary = ({ cart }: Props) => {
-      //@ts-ignore
-      const { carts } = useSelector((state: StateType) => state.userInfo);
       const [discount, setDisCount] = useState(0)
       const [totalAmt, setTotalAmt] = useState(0)
       const { data: session } = useSession()
@@ -95,19 +93,13 @@ const CartSummary = ({ cart }: Props) => {
                                     <p className="text-sm font-medium text-gray-900"><PriceFormate className="" amount={totalAmt} /></p>
                               </div>
                               <div>
-                                    {
-                                          carts.length ? <button onClick={handleCheakOut} className="w-full ">
-                                                <p className="px-6 py-0.5 text-green-700 rounded-full bg-yellow-300/75 text-[16px]">
-                                                      Payment
-                                                </p>
-                                          </button>
-                                                :
-                                                <button onClick={() => signIn()} className="w-full ">
-                                                      <p className="px-6 py-0.5 text-green-700 rounded-full bg-yellow-300/75 text-[16px]">
-                                                            Login
-                                                      </p>
-                                                </button>
-                                    }
+                                    <button onClick={handleCheakOut} className="w-full ">
+                                          <p className="px-6 py-0.5 text-green-700 rounded-full bg-yellow-300/75 text-[16px]">
+                                                Payment
+                                          </p>
+                                    </button>
+
+
                               </div>
 
                         </div>
