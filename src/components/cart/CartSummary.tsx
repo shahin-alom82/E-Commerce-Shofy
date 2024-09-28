@@ -3,7 +3,7 @@ import { ProductType } from "@/type";
 import Container from "../ui/Container";
 import { useEffect, useState } from "react";
 import PriceFormate from "../ui/PriceFormate";
-import { signIn, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import { loadStripe } from "@stripe/stripe-js";
 
 interface Props {
@@ -98,8 +98,6 @@ const CartSummary = ({ cart }: Props) => {
                                                 Payment
                                           </p>
                                     </button>
-
-
                               </div>
 
                         </div>
