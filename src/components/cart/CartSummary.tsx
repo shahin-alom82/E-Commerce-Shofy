@@ -3,7 +3,7 @@ import { ProductType } from "@/type";
 import Container from "../ui/Container";
 import { useEffect, useState } from "react";
 import PriceFormate from "../ui/PriceFormate";
-import { useSession } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import { loadStripe } from "@stripe/stripe-js";
 
 interface Props {
@@ -12,11 +12,10 @@ interface Props {
 
 
 const CartSummary = ({ cart }: Props) => {
-
-
+      //@ts-ignore
+      const { carts } = useSelector((state: StateType) => state.userInfo);
       const [discount, setDisCount] = useState(0)
       const [totalAmt, setTotalAmt] = useState(0)
-
       const { data: session } = useSession()
 
 
@@ -39,7 +38,7 @@ const CartSummary = ({ cart }: Props) => {
 
 
 
-      
+
       // payment
       const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -52,12 +51,12 @@ const CartSummary = ({ cart }: Props) => {
                   },
                   body: JSON.stringify({
                         item: cart,
-                        email:session?.user?.email
+                        email: session?.user?.email
                   })
             })
             const data = await response.json();
-            console.log('data',data);
-            
+            console.log('data', data);
+
             if (response.ok) {
                   stripe?.redirectToCheckout({ sessionId: data.id });
 
@@ -96,11 +95,19 @@ const CartSummary = ({ cart }: Props) => {
                                     <p className="text-sm font-medium text-gray-900"><PriceFormate className="" amount={totalAmt} /></p>
                               </div>
                               <div>
-                                    <button onClick={handleCheakOut} className="w-full ">
-                                          <p className="px-6 py-0.5 text-green-700 rounded-full bg-yellow-300/75 text-[16px]">
-                                                Payment
-                                          </p>
-                                    </button>
+                                    {
+                                          carts.length ? <button onClick={handleCheakOut} className="w-full ">
+                                                <p className="px-6 py-0.5 text-green-700 rounded-full bg-yellow-300/75 text-[16px]">
+                                                      Payment
+                                                </p>
+                                          </button>
+                                                :
+                                                <button onClick={() => signIn()} className="w-full ">
+                                                      <p className="px-6 py-0.5 text-green-700 rounded-full bg-yellow-300/75 text-[16px]">
+                                                            Login
+                                                      </p>
+                                                </button>
+                                    }
                               </div>
 
                         </div>

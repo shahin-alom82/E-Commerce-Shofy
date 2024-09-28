@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 
 interface InitialState {
       cart: ProductType[];
-      userInfo: any;
+      userInfo: null;
 }
 
 const initialState: InitialState = {

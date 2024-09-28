@@ -1,6 +1,15 @@
 [
       {
-            "id": 1,
+            "title": "Smart Water Bottle",
+            "category": "bttole",
+            "description": "Hydration-focused smart water bottle that tracks your water intake and reminds you to stay hydrated. With a sleek design and LED notifications, it seamlessly integrates health and technology into your daily routine.",
+            "price": 39.99,
+            "oldPrice": 59.99,
+            "discountPrice": 2.36,
+            "rating": 3,
+            "image": "https://i.ibb.co.com/stTP8MH/Smart-Water-Bottle.jpg"
+      },
+      {
             "title": "Wireless Bluetooth Headphones",
             "category": "headphone",
             "description": "Wireless Bluetooth headphones with high-quality sound, noise cancellation, and long-lasting battery life. Comfortable design for all-day wear, perfect for music, calls, and gaming.",
@@ -11,7 +20,26 @@
             "image": "https://i.ibb.co/tq0Fwb6/Head-Phone.jpg"
       },
       {
-            "id": 2,
+            "title": "Electric Kettle",
+            "category": "electric",
+            "description": "Fast-boiling electric kettle with 1.7L capacity and automatic shut-off for safety. Sleek design, perfect for tea, coffee, and instant meals with easy-to-use cordless operation.",
+            "price": 29.99,
+            "oldPrice": 39.99,
+            "discountPrice": 2.66,
+            "rating": 3,
+            "image": "https://i.ibb.co/2gHMThw/Electric-Ketli.jpg"
+      },
+      {
+            "title": "Portable Blender",
+            "category": "electric",
+            "description": "Compact portable blender for smoothies and shakes, perfect for on-the-go lifestyles. Powerful motor and USB rechargeable design make it easy to whip up healthy drinks anywhere, anytime.",
+            "price": 29.99,
+            "oldPrice": 49.99,
+            "discountPrice": 1.45,
+            "rating": 2,
+            "image": "https://i.ibb.co.com/HdL11y1/Portable-Blender.jpg"
+      },
+      {
             "title": "Bluetooth Earbuds",
             "category": "headphone",
             "description": "Compact Bluetooth earbuds with immersive sound, noise isolation, and a secure fit. Enjoy seamless connectivity and long battery life for music, calls, and workouts.",
@@ -22,7 +50,16 @@
             "image": "https://i.ibb.co/ZS96JzY/soundpeats.jpg"
       },
       {
-            "id": 3,
+            "title": "Electric Pressure Cooker",
+            "category": "electric",
+            "description": "Versatile electric pressure cooker that cooks meals quickly and efficiently with multiple cooking functions. With safety features and a user-friendly interface, it’s perfect for preparing delicious, home-cooked meals in no time.",
+            "price": 89.99,
+            "oldPrice": 129.99,
+            "discountPrice": 3.44,
+            "rating": 3,
+            "image": "https://i.ibb.co.com/44JMh1P/Electric-Pressure-Cooker.jpg"
+      },
+      {
             "title": "Noise Cancelling Headphones",
             "category": "headphone",
             "description": "Premium noise-cancelling headphones with crystal-clear sound and immersive listening experience. Ideal for travel, work, and music with long battery life and comfort-focused design.",
@@ -33,8 +70,8 @@
             "image": "https://i.ibb.co/9TjJ78Z/Wirles-Headphone.jpg"
       },
       {
-            "id": 4,
             "title": "Smart phone 128GB",
+            "category": "mobile",
             "description": "Sleek smartphone with 128GB storage, offering fast performance and vibrant display. Capture stunning photos, enjoy smooth multitasking, and store all your apps and media effortlessly.",
             "price": 899.99,
             "oldPrice": 919.99,
@@ -43,7 +80,6 @@
             "image": "https://i.ibb.co/pjvwrY5/Phone.jpg"
       },
       {
-            "id": 4,
             "title": "Analog Watch",
             "category": "watch",
             "description": "Classic analog watch with a timeless design, featuring a sleek dial and durable strap. Perfect for everyday wear, blending elegance with functionality.",
@@ -54,8 +90,18 @@
             "image": "https://i.ibb.co.com/yW1YR3w/analog-watch.jpg"
       },
       {
-            "id": 5,
+            "title": "Smart Vision LED TV",
+            "category": "tv",
+            "description": "The Smart Vision LED TV offers stunning picture quality with vibrant colors and sharp details, enhancing your viewing experience. With its sleek design and smart features, it seamlessly integrates into your home, providing access to a wide range of apps and streaming services.",
+            "price": 396.99,
+            "oldPrice": 455.99,
+            "discountPrice": 8.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/c89W7QY/visionled.jpg"
+      },
+      {
             "title": "iphone 16 Pro Max",
+            "category": "mobile",
             "description": "The iPhone 16 Pro Max features a stunning 6.9-inch display, advanced triple-camera system, and A18 chip for lightning-fast performance. With up to 2TB storage, it's perfect for capturing pro-level photos, videos, and immersive experiences.",
             "price": 1000.99,
             "oldPrice": 1012.99,
@@ -64,18 +110,28 @@
             "image": "https://i.ibb.co.com/L6dhV80/iphone.jpg"
       },
       {
-            "id": 6,
             "title": "Smart LED TV 55 Inch",
+            "category": "tv",
             "description": "Experience immersive viewing with the 55-inch Smart LED TV, featuring 4K Ultra HD resolution and vibrant colors. Enjoy seamless streaming, voice control, and smart home integration for ultimate entertainment.",
-            "price": 499.99,
-            "oldPrice": 699.99,
-            "discountPrice": 5.62,
+            "price": 359.99,
+            "oldPrice": 499.99,
+            "discountPrice": 9.62,
             "rating": 5,
             "image": "https://i.ibb.co/6mrww7F/LED-TV.jpg"
       },
       {
-            "id": 7,
+            "title": "Smart Minister LED TV 32 Inch",
+            "category": "tv",
+            "description": "The Smart Minister 32 Inch LED TV delivers crisp visuals and immersive sound, perfect for small to medium-sized rooms. With built-in smart features, it provides easy access to popular apps and streaming platforms for endless entertainment.",
+            "price": 299.99,
+            "oldPrice": 373.99,
+            "discountPrice": 5.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/7t2t7dk/ministerled.jpg"
+      },
+      {
             "title": "Portable Air Purifier",
+            "category": "electric",
             "description": "Compact and efficient, the portable air purifier removes dust, allergens, and odors with advanced HEPA filtration. Ideal for home, office, or travel, ensuring fresh and clean air wherever you go.",
             "price": 79.99,
             "oldPrice": 129.99,
@@ -84,18 +140,8 @@
             "image": "https://i.ibb.co/nQ2HZ6N/Best-Air-Purifiers-For-Large-Rooms.png"
       },
       {
-            "id": 8,
-            "title": "Electric Kettle",
-            "description": "Fast-boiling electric kettle with 1.7L capacity and automatic shut-off for safety. Sleek design, perfect for tea, coffee, and instant meals with easy-to-use cordless operation.",
-            "price": 29.99,
-            "oldPrice": 39.99,
-            "discountPrice": 2.66,
-            "rating": 3,
-            "image": "https://i.ibb.co/2gHMThw/Electric-Ketli.jpg"
-      },
-      {
-            "id": 9,
             "title": "Gaming Laptop",
+            "category": "tv",
             "description": "High-performance gaming laptop with powerful graphics, fast processing, and RGB keyboard. Built for immersive gaming, offering smooth gameplay and advanced cooling for extended sessions.",
             "price": 1199.99,
             "oldPrice": 1499.99,
@@ -104,18 +150,8 @@
             "image": "https://i.ibb.co/VYNdCxq/Gaming-Laptop.jpg"
       },
       {
-            "id": 10,
-            "title": "Fitness Tracker",
-            "description": "Sleek fitness tracker that monitors heart rate, steps, and sleep quality for a healthier lifestyle. With smartphone notifications and a long-lasting battery, it keeps you connected and motivated throughout the day.",
-            "price": 49.99,
-            "oldPrice": 79.99,
-            "discountPrice": 5.66,
-            "rating": 2,
-            "image": "https://i.ibb.co/9WVDP9t/Jim-Man.jpg"
-      },
-      {
-            "id": 11,
             "title": "Wireless Charger",
+            "category": "electric",
             "description": "Effortless wireless charger compatible with Qi-enabled devices, offering fast and efficient charging. Sleek and compact design ensures a clutter-free space while keeping your devices powered up.",
             "price": 24.99,
             "oldPrice": 34.99,
@@ -124,18 +160,8 @@
             "image": "https://i.ibb.co/Gnqtgrs/Wireles-Charger.jpg"
       },
       {
-            "id": 12,
-            "title": "Digital Camera",
-            "description": "High-resolution digital camera with advanced features for stunning photography and videography. Compact and user-friendly, it captures every moment with clarity, ideal for both beginners and professionals.",
-            "price": 349.99,
-            "oldPrice": 449.99,
-            "discountPrice": 5.66,
-            "rating": 4,
-            "image": "https://i.ibb.co/wCthtdB/Digital-Camera.jpg"
-      },
-      {
-            "id": 13,
             "title": "Bluetooth Speaker",
+            "category": "headphone",
             "description": "Portable Bluetooth speaker with rich sound quality and deep bass, perfect for music on the go. Water-resistant design and long battery life make it ideal for outdoor adventures and parties.",
             "price": 39.99,
             "oldPrice": 59.99,
@@ -144,8 +170,8 @@
             "image": "https://i.ibb.co/CVHT1m6/Bluetooth-Speaker.jpg"
       },
       {
-            "id": 14,
             "title": "4-Slice Toaster",
+            "category": "electric",
             "description": "Versatile 4-slice toaster with multiple browning settings for perfectly toasted bread, bagels, and more. Compact design with a high-lift lever and crumb tray for easy cleaning and convenience.",
             "price": 49.99,
             "oldPrice": 69.99,
@@ -154,8 +180,8 @@
             "image": "https://i.ibb.co/9csjQpR/Drupal-Banner.jpg"
       },
       {
-            "id": 15,
             "title": "Smart watch",
+            "category": "watch",
             "description": "Stylish smartwatch that tracks fitness, heart rate, and notifications, keeping you connected on the go. With customizable watch faces and long battery life, its perfect for both workouts and daily wear.",
             "price": 199.99,
             "oldPrice": 249.99,
@@ -164,8 +190,8 @@
             "image": "https://i.ibb.co/XLd51dt/Digital-Watch.png"
       },
       {
-            "id": 16,
             "title": "Cordless Vacuum Cleaner",
+            "category": "electric",
             "description": "Powerful cordless vacuum cleaner designed for effortless cleaning with strong suction and versatile attachments. Lightweight and easy to maneuver, it provides deep cleaning on all surfaces without the hassle of cords.",
             "price": 159.99,
             "oldPrice": 199.99,
@@ -174,8 +200,8 @@
             "image": "https://i.ibb.co/vBM17WB/Cleaner-Machine.jpg"
       },
       {
-            "id": 17,
             "title": "Home Security Camera",
+            "category": "tv",
             "description": "Reliable home security camera with high-definition video and night vision for 24/7 monitoring. Easy setup and mobile app integration allow you to keep an eye on your home from anywhere.",
             "price": 79.99,
             "oldPrice": 99.99,
@@ -184,8 +210,8 @@
             "image": "https://i.ibb.co/gz69sBK/Security-Camera-group.jpg"
       },
       {
-            "id": 18,
             "title": "Electric Toothbrush",
+            "category": "electric",
             "description": "Advanced electric toothbrush with multiple brushing modes and a timer for optimal oral care. Ergonomic design and long battery life ensure a thorough clean and a brighter smile every day.",
             "price": 29.99,
             "oldPrice": 49.99,
@@ -196,6 +222,7 @@
       {
             "id": 19,
             "title": "Tablet 10.1 Inch",
+            "category": "mobile",
             "description": "Versatile 10.1-inch tablet with vibrant display and powerful performance, perfect for browsing, streaming, and productivity. Lightweight and portable, it offers seamless multitasking and long battery life for on-the-go use.",
             "price": 199.99,
             "oldPrice": 299.99,
@@ -204,8 +231,8 @@
             "image": "https://i.ibb.co/mB9JLvz/51-Eh-WS9p-Rn-L-AC-UF894-1000-QL80.jpg"
       },
       {
-            "id": 20,
             "title": "Espresso Machine",
+            "category": "electric",
             "description": "Brew barista-quality coffee at home.",
             "price": 249.99,
             "oldPrice": 349.99,
@@ -214,38 +241,8 @@
             "image": "https://i.ibb.co/8jyBr0T/Pexels-Chevanon.jpg"
       },
       {
-            "id": 21,
-            "title": "Smart Light Bulb",
-            "description": "Professional-grade espresso machine that brews rich, aromatic espresso with customizable settings for the perfect cup. Sleek design and easy-to-use controls make it ideal for coffee enthusiasts at home.",
-            "price": 19.99,
-            "oldPrice": 29.99,
-            "discountPrice": 1.76,
-            "rating": 4,
-            "image": "https://i.ibb.co/gJQ4ygr/189724-2023-1.jpg"
-      },
-      {
-            "id": 22,
-            "title": "Laptop Stand",
-            "description": "Ergonomic laptop stand designed to improve posture and reduce neck strain, promoting comfortable working conditions. Lightweight and adjustable, its perfect for home, office, or travel, enhancing your productivity anywhere.",
-            "price": 29.99,
-            "oldPrice": 39.99,
-            "discountPrice": 1.23,
-            "rating": 5,
-            "image": "https://i.ibb.co/K2L17C5/Laptop-Stand.jpg"
-      },
-      {
-            "id": 23,
-            "title": "Electric Pressure Cooker",
-            "description": "Versatile electric pressure cooker that cooks meals quickly and efficiently with multiple cooking functions. With safety features and a user-friendly interface, it’s perfect for preparing delicious, home-cooked meals in no time.",
-            "price": 89.99,
-            "oldPrice": 129.99,
-            "discountPrice": 3.44,
-            "rating": 3,
-            "image": "https://i.ibb.co.com/44JMh1P/Electric-Pressure-Cooker.jpg"
-      },
-      {
-            "id": 24,
             "title": "Wireless Keyboard and Mouse",
+            "category": "electric",
             "description": "Sleek wireless keyboard and mouse combo designed for comfort and efficiency, featuring quiet keys and ergonomic design. Easy plug-and-play connectivity ensures a clutter-free workspace for seamless productivity.",
             "price": 39.99,
             "oldPrice": 59.99,
@@ -254,8 +251,8 @@
             "image": "https://i.ibb.co.com/pRmY5wh/Wireless-Keyboard-and-Mouse.jpg"
       },
       {
-            "id": 25,
             "title": "Outdoor Security Light",
+            "category": "tv",
             "description": "Bright outdoor security light with motion detection and adjustable brightness, enhancing safety around your home. Weather-resistant design ensures reliable performance in any environment, providing peace of mind day and night.",
             "price": 34.99,
             "oldPrice": 49.99,
@@ -264,8 +261,8 @@
             "image": "https://i.ibb.co.com/xjnDBYY/Outdoor-Security-Light.jpg"
       },
       {
-            "id": 26,
             "title": "Digital Picture Frame",
+            "category": "electric",
             "description": "Stylish digital picture frame that displays your favorite photos with vibrant clarity and customizable slideshow settings. Easy to use with Wi-Fi connectivity, allowing you to share memories directly from your smartphone.",
             "price": 99.99,
             "oldPrice": 149.99,
@@ -274,8 +271,8 @@
             "image": "https://i.ibb.co.com/PN4jgfB/Digital-Picture-Frame.jpg"
       },
       {
-            "id": 27,
             "title": "Portable Power Bank",
+            "category": "electric",
             "description": "Compact portable power bank with high-capacity battery for charging devices on the go. Dual USB ports allow simultaneous charging, making it perfect for travel, emergencies, or outdoor adventures.",
             "price": 24.99,
             "oldPrice": 39.99,
@@ -284,8 +281,8 @@
             "image": "https://i.ibb.co.com/h8w5Vjx/Portable-Power-Bank.jpg"
       },
       {
-            "id": 28,
             "title": "Smart Thermostat",
+            "category": "electric",
             "description": "Energy-efficient smart thermostat that learns your preferences and optimizes heating and cooling for maximum comfort. Easily controlled via smartphone app, ensuring a cozy home while saving on energy bills.",
             "price": 149.99,
             "oldPrice": 199.99,
@@ -294,28 +291,8 @@
             "image": "https://i.ibb.co.com/brfcb5t/Smart-Thermostat.jpg"
       },
       {
-            "id": 29,
-            "title": "Portable Blender",
-            "description": "Compact portable blender for smoothies and shakes, perfect for on-the-go lifestyles. Powerful motor and USB rechargeable design make it easy to whip up healthy drinks anywhere, anytime.",
-            "price": 29.99,
-            "oldPrice": 49.99,
-            "discountPrice": 1.45,
-            "rating": 2,
-            "image": "https://i.ibb.co.com/HdL11y1/Portable-Blender.jpg"
-      },
-      {
-            "id": 30,
-            "title": "Waterproof Phone Case",
-            "description": "Durable waterproof phone case designed to protect your device from water, dust, and drops. Slim and lightweight, it allows easy access to all ports and buttons while keeping your phone safe during adventures.",
-            "price": 19.99,
-            "oldPrice": 29.99,
-            "discountPrice": 1.13,
-            "rating": 4,
-            "image": "https://i.ibb.co.com/TgZJ6Tk/Waterproof-Phone-Case.jpg"
-      },
-      {
-            "id": 31,
             "title": "Electric Griddle",
+            "category": "electric",
             "description": "Large electric griddle with a non-stick surface, perfect for cooking breakfast favorites like pancakes, eggs, and bacon. Adjustable temperature control and easy-to-clean design make meal prep a breeze for family gatherings.",
             "price": 49.99,
             "oldPrice": 79.99,
@@ -324,8 +301,8 @@
             "image": "https://example.com/images/griddle.jpg"
       },
       {
-            "id": 32,
             "title": "Smart Doorbell",
+            "category": "electric",
             "description": "Smart doorbell with HD video and two-way audio, allowing you to see and speak to visitors from your smartphone. Motion detection and night vision enhance home security, ensuring peace of mind day and night.",
             "price": 89.99,
             "oldPrice": 129.99,
@@ -334,8 +311,8 @@
             "image": "https://i.ibb.co.com/9cQCK3R/Smart-Doorbell.jpg"
       },
       {
-            "id": 33,
             "title": "Home Theater System",
+            "category": "electric",
             "description": "Immersive home theater system with surround sound and high-definition audio, delivering a cinematic experience right at home. Easy setup and connectivity options enhance your entertainment with movies, music, and gaming.",
             "price": 299.99,
             "oldPrice": 399.99,
@@ -344,8 +321,8 @@
             "image": "https://i.ibb.co.com/yk1nNz3/Home-Theater-System.jpg"
       },
       {
-            "id": 34,
             "title": "Smart Mirror",
+            "category": "electric",
             "description": "Innovative smart mirror featuring a touch screen, customizable lighting, and voice control for a seamless grooming experience. Display weather, news, and personal reminders while enhancing your bathroom decor with modern technology.",
             "price": 149.99,
             "oldPrice": 199.99,
@@ -354,18 +331,8 @@
             "image": "https://i.ibb.co.com/Dfj5MvL/Smart-Mirror.jpg"
       },
       {
-            "id": 35,
-            "title": "Smart Water Bottle",
-            "description": "Hydration-focused smart water bottle that tracks your water intake and reminds you to stay hydrated. With a sleek design and LED notifications, it seamlessly integrates health and technology into your daily routine.",
-            "price": 39.99,
-            "oldPrice": 59.99,
-            "discountPrice": 2.36,
-            "rating": 3,
-            "image": "https://i.ibb.co.com/stTP8MH/Smart-Water-Bottle.jpg"
-      },
-      {
-            "id": 36,
             "title": "Portable Bluetooth Printer",
+            "category": "electric",
             "description": "Compact portable Bluetooth printer that easily connects to your smartphone for instant photo printing. Lightweight and user-friendly, its perfect for capturing and sharing memories on the go.",
             "price": 99.99,
             "oldPrice": 149.99,
@@ -374,8 +341,8 @@
             "image": "https://i.ibb.co.com/g3D25PR/Portable-Bluetooth-Printer.jpg"
       },
       {
-            "id": 37,
             "title": "Electric Blanket",
+            "category": "electric",
             "description": "Cozy electric blanket with adjustable heat settings, providing warmth and comfort during chilly nights. Soft and lightweight fabric makes it perfect for snuggling up on the couch or in bed.",
             "price": 79.99,
             "oldPrice": 119.99,
@@ -384,8 +351,8 @@
             "image": "https: //i.ibb.co.com/nrYF8vQ/Electric-Blanket.png"
       },
       {
-            "id": 38,
             "title": "USB-C Hub",
+            "category": "electric",
             "description": "Versatile USB-C hub that expands your device's connectivity with multiple ports for USB, HDMI, and SD cards. Compact and portable design makes it perfect for home, office, or travel, enhancing your productivity effortlessly.",
             "price": 29.99,
             "oldPrice": 49.99,
@@ -394,8 +361,8 @@
             "image": "https://i.ibb.co.com/qx0vV6h/USB-C-Hub.jpg"
       },
       {
-            "id": 39,
             "title": "Noise Cancelling Earplugs",
+            "category": "electric",
             "description": "Comfortable noise-cancelling earplugs designed to block out disruptive sounds for better focus and relaxation. Ideal for sleeping, studying, or traveling, they provide a peaceful environment wherever you go.",
             "price": 24.99,
             "oldPrice": 39.99,
@@ -404,8 +371,8 @@
             "image": "https://i.ibb.co.com/P94ZH7X/Noise-Cancelling-Earplugs.jpg"
       },
       {
-            "id": 40,
             "title": "Rechargeable Flashlight",
+            "category": "electric",
             "description": "Powerful rechargeable flashlight with adjustable brightness and durable construction for reliable performance in any situation. Compact and portable design makes it perfect for camping, emergencies, or everyday use.",
             "price": 39.99,
             "oldPrice": 59.99,
@@ -414,350 +381,13 @@
             "image": "https://i.ibb.co.com/G9ct8Zb/Rechargeable-Flashlight.jpg"
       },
       {
-            "id": 41,
             "title": "Smart Plug",
+            "category": "electric",
             "description": "Convenient smart plug that allows you to control devices remotely via smartphone or voice assistant. Schedule timers and monitor energy usage, making your home smarter and more energy-efficient.",
             "price": 14.99,
             "oldPrice": 24.99,
             "discountPrice": 1.66,
             "rating": 3,
             "image": "https://i.ibb.co.com/x8GhnSd/Smart-Plug.jpg"
-      }
-]
-
-
-
-
-
- [
-      {
-            "id": 1,
-            "title": "Wireless Bluetooth Headphones",
-            "category": "Electronics",
-            "description": "Premium wireless headphones with noise cancellation. Experience crystal-clear sound and deep bass.",
-            "rating": 4.5,
-            "price": 120,
-            "oldprice": 150,
-            "discountprice": 110,
-            "img": "https://example.com/img/headphones.jpg"
-      },
-      {
-            "id": 2,
-            "title": "Men's Casual Sneakers",
-            "category": "Footwear",
-            "description": "Stylish men's sneakers for casual wear. Designed for comfort and durability.",
-            "rating": 4.0,
-            "price": 65,
-            "oldprice": 80,
-            "discountprice": 60,
-            "img": "https://example.com/img/sneakers.jpg"
-      },
-      {
-            "id": 3,
-            "title": "4K LED Smart TV",
-            "category": "Electronics",
-            "description": "Smart TV with 4K Ultra HD resolution. Built-in apps for seamless streaming.",
-            "rating": 4.8,
-            "price": 700,
-            "oldprice": 850,
-            "discountprice": 680,
-            "img": "https://example.com/img/smart-tv.jpg"
-      },
-      {
-            "id": 4,
-            "title": "Stainless Steel Water Bottle",
-            "category": "Accessories",
-            "description": "Durable stainless steel water bottle. Leak-proof design, perfect for travel.",
-            "rating": 4.3,
-            "price": 20,
-            "oldprice": 25,
-            "discountprice": 18,
-            "img": "https://example.com/img/water-bottle.jpg"
-      },
-      {
-            "id": 5,
-            "title": "Women's Handbag",
-            "category": "Fashion",
-            "description": "Elegant leather handbag with ample storage. Ideal for daily use and special occasions.",
-            "rating": 4.7,
-            "price": 85,
-            "oldprice": 100,
-            "discountprice": 80,
-            "img": "https://example.com/img/handbag.jpg"
-      },
-      {
-            "id": 6,
-            "title": "Gaming Laptop",
-            "category": "Computers",
-            "description": "High-performance gaming laptop with fast graphics. Built for serious gamers and multitasking.",
-            "rating": 4.9,
-            "price": 1500,
-            "oldprice": 1700,
-            "discountprice": 1450,
-            "img": "https://example.com/img/gaming-laptop.jpg"
-      },
-      {
-            "id": 7,
-            "title": "Smartphone 128GB",
-            "category": "Electronics",
-            "description": "Sleek smartphone with 128GB storage. Advanced camera and long-lasting battery.",
-            "rating": 4.4,
-            "price": 600,
-            "oldprice": 750,
-            "discountprice": 580,
-            "img": "https://example.com/img/smartphone.jpg"
-      },
-      {
-            "id": 8,
-            "title": "Yoga Mat",
-            "category": "Fitness",
-            "description": "Non-slip yoga mat with extra cushioning. Perfect for home or studio workouts.",
-            "rating": 4.6,
-            "price": 30,
-            "oldprice": 40,
-            "discountprice": 28,
-            "img": "https://example.com/img/yoga-mat.jpg"
-      },
-      {
-            "id": 9,
-            "title": "Blender & Smoothie Maker",
-            "category": "Home Appliances",
-            "description": "Powerful blender for smoothies, soups, and more. Easy to clean and durable design.",
-            "rating": 4.2,
-            "price": 55,
-            "oldprice": 70,
-            "discountprice": 50,
-            "img": "https://example.com/img/blender.jpg"
-      },
-      {
-            "id": 10,
-            "title": "Running Shoes",
-            "category": "Footwear",
-            "description": "Lightweight running shoes with extra support. Ideal for jogging and long walks.",
-            "rating": 4.1,
-            "price": 45,
-            "oldprice": 60,
-            "discountprice": 40,
-            "img": "https://example.com/img/running-shoes.jpg"
-      },
-      {
-            "id": 11,
-            "title": "Leather Office Chair",
-            "category": "Furniture",
-            "description": "Ergonomic leather office chair with lumbar support. Adjustable height and armrests.",
-            "rating": 4.7,
-            "price": 250,
-            "oldprice": 300,
-            "discountprice": 240,
-            "img": "https://example.com/img/office-chair.jpg"
-      },
-      {
-            "id": 12,
-            "title": "Wireless Mouse",
-            "category": "Computers",
-            "description": "Portable wireless mouse with ergonomic design. Ideal for laptops and desktops.",
-            "rating": 4.3,
-            "price": 25,
-            "oldprice": 35,
-            "discountprice": 22,
-            "img": "https://example.com/img/wireless-mouse.jpg"
-      },
-      {
-            "id": 13,
-            "title": "Digital Kitchen Scale",
-            "category": "Home Appliances",
-            "description": "Accurate digital scale for kitchen use. Perfect for measuring ingredients.",
-            "rating": 4.6,
-            "price": 15,
-            "oldprice": 20,
-            "discountprice": 12,
-            "img": "https://example.com/img/kitchen-scale.jpg"
-      },
-      {
-            "id": 14,
-            "title": "Smartwatch",
-            "category": "Wearables",
-            "description": "Smartwatch with fitness tracking and notifications. Water-resistant and long battery life.",
-            "rating": 4.5,
-            "price": 120,
-            "oldprice": 140,
-            "discountprice": 110,
-            "img": "https://example.com/img/smartwatch.jpg"
-      },
-      {
-            "id": 15,
-            "title": "Electric Kettle",
-            "category": "Home Appliances",
-            "description": "Fast-boiling electric kettle with auto shut-off. Perfect for tea, coffee, and instant meals.",
-            "rating": 4.4,
-            "price": 30,
-            "oldprice": 40,
-            "discountprice": 28,
-            "img": "https://example.com/img/kettle.jpg"
-      },
-      {
-            "id": 16,
-            "title": "Men's Leather Wallet",
-            "category": "Fashion",
-            "description": "Premium leather wallet with multiple card slots. Stylish and compact for daily use.",
-            "rating": 4.3,
-            "price": 35,
-            "oldprice": 45,
-            "discountprice": 32,
-            "img": "https://example.com/img/leather-wallet.jpg"
-      },
-      {
-            "id": 17,
-            "title": "Noise-Cancelling Earbuds",
-            "category": "Electronics",
-            "description": "Noise-cancelling earbuds for immersive sound. Comfortable fit for long hours of use.",
-            "rating": 4.5,
-            "price": 80,
-            "oldprice": 100,
-            "discountprice": 75,
-            "img": "https://example.com/img/earbuds.jpg"
-      },
-      {
-            "id": 18,
-            "title": "Adjustable Dumbbells Set",
-            "category": "Fitness",
-            "description": "Adjustable dumbbells for weight training. Easy to store and perfect for home gyms.",
-            "rating": 4.6,
-            "price": 120,
-            "oldprice": 150,
-            "discountprice": 110,
-            "img": "https://example.com/img/dumbbells.jpg"
-      },
-      {
-            "id": 19,
-            "title": "Smart Thermostat",
-            "category": "Home Automation",
-            "description": "Energy-saving smart thermostat with app control. Set schedules and monitor usage remotely.",
-            "rating": 4.8,
-            "price": 200,
-            "oldprice": 250,
-            "discountprice": 190,
-            "img": "https://example.com/img/thermostat.jpg"
-      },
-      {
-            "id": 20,
-            "title": "Women's Sunglasses",
-            "category": "Accessories",
-            "description": "Trendy women's sunglasses with UV protection. Polarized lenses for clarity and comfort.",
-            "rating": 4.4,
-            "price": 50,
-            "oldprice": 65,
-            "discountprice": 45,
-            "img": "https://example.com/img/sunglasses.jpg"
-      },
-      {
-            "id": 21,
-            "title": "Smart Light Bulb",
-            "category": "Home Automation",
-            "description": "Smart bulb with adjustable brightness and color. Control via mobile app or voice assistant.",
-            "rating": 4.5,
-            "price": 25,
-            "oldprice": 35,
-            "discountprice": 22,
-            "img": "https://example.com/img/light-bulb.jpg"
-      },
-      {
-            "id": 22,
-            "title": "Portable Power Bank",
-            "category": "Electronics",
-            "description": "High-capacity portable power bank. Fast charging for smartphones and tablets.",
-            "rating": 4.3,
-            "price": 40,
-            "oldprice": 55,
-            "discountprice": 38,
-            "img": "https://example.com/img/power-bank.jpg"
-      },
-      {
-            "id": 23,
-            "title": "Men's Leather Jacket",
-            "category": "Fashion",
-            "description": "Stylish leather jacket with zip closure. Includes multiple pockets and a sleek fit.",
-            "rating": 4.7,
-            "price": 180,
-            "oldprice": 220,
-            "discountprice": 170,
-            "img": "https://example.com/img/leather-jacket.jpg"
-      },
-      {
-            "id": 24,
-            "title": "Espresso Coffee Maker",
-            "category": "Home Appliances",
-            "description": "High-pressure espresso machine for perfect coffee. Café-quality results at home.",
-            "rating": 4.6,
-            "price": 150,
-            "oldprice": 180,
-            "discountprice": 140,
-            "img": "https://example.com/img/coffee-maker.jpg"
-      },
-      {
-            "id": 25,
-            "title": "Bluetooth Speaker",
-            "category": "Electronics",
-            "description": "Portable Bluetooth speaker with great sound. Long battery life for extended use.",
-            "rating": 4.3,
-            "price": 60,
-            "oldprice": 75,
-            "discountprice": 55,
-            "img": "https://example.com/img/bluetooth-speaker.jpg"
-      },
-      {
-            "id": 26,
-            "title": "Women's Running Leggings",
-            "category": "Fitness",
-            "description": "Stretchable leggings designed for running. Breathable fabric for maximum comfort.",
-            "rating": 4.5,
-            "price": 40,
-            "oldprice": 55,
-            "discountprice": 35,
-            "img": "https://example.com/img/leggings.jpg"
-      },
-      {
-            "id": 27,
-            "title": "Digital Camera",
-            "category": "Electronics",
-            "description": "Compact digital camera with 20MP sensor. Supports full HD recording and photos.",
-            "rating": 4.6,
-            "price": 300,
-            "oldprice": 350,
-            "discountprice": 280,
-            "img": "https://example.com/img/digital-camera.jpg"
-      },
-      {
-            "id": 28,
-            "title": "Kids' Play Tent",
-            "category": "Toys",
-            "description": "Fun and colorful tent for kids. Suitable for both indoor and outdoor play.",
-            "rating": 4.4,
-            "price": 45,
-            "oldprice": 60,
-            "discountprice": 42,
-            "img": "https://example.com/img/play-tent.jpg"
-      },
-      {
-            "id": 29,
-            "title": "Electric Toothbrush",
-            "category": "Personal Care",
-            "description": "Rechargeable electric toothbrush with modes. Designed for effective brushing.",
-            "rating": 4.3,
-            "price": 50,
-            "oldprice": 65,
-            "discountprice": 48,
-            "img": "https://example.com/img/toothbrush.jpg"
-      },
-      {
-            "id": 30,
-            "title": "Men's Aviator Watch",
-            "category": "Accessories",
-            "description": "Classic aviator watch with leather strap. Durable design with a sleek appearance.",
-            "rating": 4.7,
-            "price": 150,
-            "oldprice": 180,
-            "discountprice": 140,
-            "img": "https://example.com/img/aviator-watch.jpg"
       }
 ]

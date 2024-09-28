@@ -1,5 +1,6 @@
-import { ProductType } from "@/type";
+import { ProductType, StateType } from "@/type";
 import { NextRequest, NextResponse } from "next/server";
+import { useSelector } from "react-redux";
 import Stripe from "stripe";
 
 
@@ -7,7 +8,6 @@ import Stripe from "stripe";
 
 const stripe_secret = (process.env.STRIPE_SECRET_KEY!)
 export const POST = async (request: NextRequest) => {
-
       const stripe = new Stripe(stripe_secret);
 
       try {
