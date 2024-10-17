@@ -3,22 +3,34 @@ import Link from "next/link";
 
 const CancelPage = () => {
       return (
-            <div>
-
-                  <div className="py-20">
-                        <Container className="max-w-screen-md">
-                              <div className="bg-gray-200 text-center px-4 py-10 shadow-lg shadow-gray-300">
-                                    <h1 className='lg:text-4xl text-2xl font-semibold tracking-wide text-gray-700'>Product Cancel</h1>
-                                    <p className="mt-5">  This is the product description. It will be cut off after three lines, even if the content exceeds the limit. This ensures the design stays neat and consistent.
+            <div className="py-10">
+                  <Container className="max-w-screen-md mx-auto">
+                        <div className=" bg-gray-100">
+                              <div className="bg-white shadow-lg p-8 rounded-lg text-center">
+                                    <h1 className="text-4xl font-semibold text-green-500 mb-4">
+                                          Product Cancal Successful!
+                                    </h1>
+                                    <p className="text-lg text-gray-700 mb-6">
+                                          Product cancellation refers to the process of terminating or voiding a purchase or order before it is completed or shipped.
                                     </p>
 
-                                    <Link href={"/"}>
-                                          <button className="bg-blue-600 py-2 px-4 text-white text-[16px] mt-6">Go to Home</button>
-                                    </Link>
-                              </div>
-                        </Container>
-                  </div>
+                                    <div className="space-x-4">
+                                          <Link href={"/cart"}>
+                                                <button className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded transition duration-300 ease-in-out">
+                                                      View Cart
+                                                </button>
+                                          </Link>
 
+                                          <Link
+                                                href="/"
+                                                className="bg-green-500 hover:bg-green-600 text-white font-medium py-2 px-4 rounded transition duration-300 ease-in-out"
+                                          >
+                                                Continue Shopping
+                                          </Link>
+                                    </div>
+                              </div>
+                        </div>
+                  </Container>
             </div>
       );
 };

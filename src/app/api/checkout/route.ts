@@ -1,9 +1,6 @@
-import { ProductType, StateType } from "@/type";
+import { ProductType } from "@/type";
 import { NextRequest, NextResponse } from "next/server";
-import { useSelector } from "react-redux";
 import Stripe from "stripe";
-
-
 
 
 const stripe_secret = (process.env.STRIPE_SECRET_KEY!)

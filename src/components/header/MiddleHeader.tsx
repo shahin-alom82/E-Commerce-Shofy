@@ -27,6 +27,7 @@ interface StateType {
 const MiddleHeader = () => {
       const [searchValue, setSearchValue] = useState("");
       const { data: session } = useSession()
+      // console.log("data", session?.user)
 
       const dispatch = useDispatch()
       // Add To Cart

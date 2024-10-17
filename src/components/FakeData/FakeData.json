@@ -1,73 +1,303 @@
 [
       {
-            "title": "Smart Water Bottle",
-            "category": "bttole",
-            "description": "Hydration-focused smart water bottle that tracks your water intake and reminds you to stay hydrated. With a sleek design and LED notifications, it seamlessly integrates health and technology into your daily routine.",
-            "price": 39.99,
-            "oldPrice": 59.99,
-            "discountPrice": 2.36,
+            "title": "Samsung Galaxy A14",
+            "category": "mobile",
+            "description": "The Samsung Galaxy A14 offers 4GB/6GB RAM and 64GB/128GB storage, expandable up to 1TB via microSD. It features a 50MP triple-camera and a 5000mAh battery for all-day use",
+            "price": 189.33,
+            "oldPrice": 199.96,
+            "discountPrice": 4.62,
             "rating": 3,
-            "image": "https://i.ibb.co.com/stTP8MH/Smart-Water-Bottle.jpg"
+            "image": "https://i.ibb.co.com/xg3KyNH/mobile2.png"
       },
       {
-            "title": "Wireless Bluetooth Headphones",
-            "category": "headphone",
-            "description": "Wireless Bluetooth headphones with high-quality sound, noise cancellation, and long-lasting battery life. Comfortable design for all-day wear, perfect for music, calls, and gaming.",
-            "price": 59.99,
-            "oldPrice": 89.99,
-            "discountPrice": 5.66,
+            "title": "Samsung-Galaxy-S21-FE-5-G",
+            "category": "mobile",
+            "description": "The Samsung Galaxy S21 FE 5G offers 6GB/8GB of RAM and 128GB/256GB of internal storage. It features a 6.4-inch Dynamic AMOLED display, a 12MP triple-camera system, and a 4500mAh battery with fast charging support.",
+            "price": 725.00,
+            "oldPrice": 729.99,
+            "discountPrice": 4.62,
             "rating": 4,
-            "image": "https://i.ibb.co/tq0Fwb6/Head-Phone.jpg"
+            "image": "https://i.ibb.co.com/3cp8ntD/Samsung-Galaxy-S21-FE-5-G.webp"
       },
       {
-            "title": "Electric Kettle",
-            "category": "electric",
-            "description": "Fast-boiling electric kettle with 1.7L capacity and automatic shut-off for safety. Sleek design, perfect for tea, coffee, and instant meals with easy-to-use cordless operation.",
-            "price": 29.99,
-            "oldPrice": 39.99,
+            "title": "Galaxy A03 Core",
+            "category": "mobile",
+            "description": "The Samsung Galaxy A03 Core features 2GB RAM and 32GB storage, expandable up to 1TB via microSD. It includes an 8MP rear camera and a 5000mAh battery for extended use.",
+            "price": 444.23,
+            "oldPrice": 446.77,
+            "discountPrice": 4.62,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/Y8MgQq4/mobile4.webp"
+      },
+      {
+            "title": "Samsung Galaxy Z Fold4 5G",
+            "category": "mobile",
+            "description": "The Samsung Galaxy Z Fold4 5G offers 12GB of RAM and 256GB/512GB/1TB of internal storage. It features a foldable 7.6-inch AMOLED display, a triple-camera system, and a 4400mAh battery with fast charging.",
+            "price": 2050.33,
+            "oldPrice": 2100.99,
+            "discountPrice": 4.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/X3k0bCJ/Samsung-Galaxy-Z-Fold4-5-G.png"
+      },
+      {
+            "title": "Samsung-Galaxy-Note-20",
+            "category": "mobile",
+            "description": "The Samsung Galaxy Note 20 comes with 8GB of RAM and 128GB/256GB of internal storage. It features a 6.7-inch Super AMOLED display, a 64MP triple-camera system, and a 4300mAh battery with fast charging.",
+            "price": 833.33,
+            "oldPrice": 835.99,
+            "discountPrice": 4.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/WFx2yyq/Samsung-Galaxy-Note-20.webp"
+      },
+      {
+            "title": "Smart Digital watch",
+            "category": "watch",
+            "description": "Stylish smartwatch that tracks fitness, heart rate, and notifications, keeping you connected on the go. With customizable watch faces and long battery life, its perfect for both workouts and daily wear.",
+            "price": 99.22,
+            "oldPrice": 107.79,
             "discountPrice": 2.66,
-            "rating": 3,
-            "image": "https://i.ibb.co/2gHMThw/Electric-Ketli.jpg"
+            "rating": 5,
+            "image": "https://i.ibb.co.com/Bcddft4/digital.webp"
       },
       {
-            "title": "Portable Blender",
-            "category": "electric",
-            "description": "Compact portable blender for smoothies and shakes, perfect for on-the-go lifestyles. Powerful motor and USB rechargeable design make it easy to whip up healthy drinks anywhere, anytime.",
-            "price": 29.99,
-            "oldPrice": 49.99,
-            "discountPrice": 1.45,
+            "title": "Analog Watch Gray",
+            "category": "watch",
+            "description": "Classic analog watch with a timeless design, featuring a sleek dial and durable strap. Perfect for everyday wear, blending elegance with functionality.",
+            "price": 12.29,
+            "oldPrice": 14.39,
+            "discountPrice": 1.65,
+            "rating": 3,
+            "image": "https://i.ibb.co.com/khr8B6q/analogone.webp"
+      },
+      {
+            "title": "Analog Fmale Watch",
+            "category": "watch",
+            "description": "Classic analog watch with a timeless design, featuring a sleek dial and durable strap. Perfect for everyday wear, blending elegance with functionality.",
+            "price": 14.55,
+            "oldPrice": 17.93,
+            "discountPrice": 1.75,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/c6JrgJt/analogfour.webp"
+      },
+      {
+            "title": "Analog Watch Black",
+            "category": "watch",
+            "description": "Classic analog watch with a timeless design, featuring a sleek dial and durable strap. Perfect for everyday wear, blending elegance with functionality.",
+            "price": 19.99,
+            "oldPrice": 22.99,
+            "discountPrice": 2.65,
             "rating": 2,
-            "image": "https://i.ibb.co.com/HdL11y1/Portable-Blender.jpg"
+            "image": "https://i.ibb.co.com/khr8B6q/analogone.webp"
       },
       {
-            "title": "Bluetooth Earbuds",
-            "category": "headphone",
-            "description": "Compact Bluetooth earbuds with immersive sound, noise isolation, and a secure fit. Enjoy seamless connectivity and long battery life for music, calls, and workouts.",
-            "price": 49.99,
-            "oldPrice": 79.99,
-            "discountPrice": 2.95,
+            "title": "Smart Digital watch",
+            "category": "watch",
+            "description": "Stylish smartwatch that tracks fitness, heart rate, and notifications, keeping you connected on the go. With customizable watch faces and long battery life, its perfect for both workouts and daily wear.",
+            "price": 66.55,
+            "oldPrice": 69.39,
+            "discountPrice": 2.66,
+            "rating": 5,
+            "image": "https://i.ibb.co/XLd51dt/Digital-Watch.png"
+      },
+      {
+            "title": "Sofa Single Seater-Blue",
+            "category": "furniture",
+            "description": "The Sofa Single Seater in Orange brings a bold pop of color with its plush cushioning and modern design. Ideal for brightening up any room, it offers both style and comfort.",
+            "price": 52.66,
+            "oldPrice": 56.33,
+            "discountPrice": 3.24,
+            "rating": 2,
+            "image": "https://i.ibb.co.com/NSt98by/s5.webp"
+      },
+      {
+            "title": "Sofa Single Seater-Orange",
+            "category": "furniture",
+            "description": "The Sofa Single Seater in Blue offers a vibrant touch with its comfortable padding and stylish design. Its rich color and cozy seating make it a perfect addition to any contemporary space.",
+            "price": 41.33,
+            "oldPrice": 48.55,
+            "discountPrice": 2.45,
             "rating": 4,
-            "image": "https://i.ibb.co/ZS96JzY/soundpeats.jpg"
+            "image": "https://i.ibb.co.com/cYFbtPN/s4.webp"
       },
       {
-            "title": "Electric Pressure Cooker",
-            "category": "electric",
-            "description": "Versatile electric pressure cooker that cooks meals quickly and efficiently with multiple cooking functions. With safety features and a user-friendly interface, it’s perfect for preparing delicious, home-cooked meals in no time.",
-            "price": 89.99,
-            "oldPrice": 129.99,
+            "title": "Revolving Chair 1203",
+            "category": "furniture",
+            "description": "The Revolving Chair 1203 features 360-degree swivel functionality with smooth-rolling wheels for easy mobility. Its cushioned seat and adjustable height ensure comfort and flexibility for any workspace.",
+            "price": 33.12,
+            "oldPrice": 44.33,
+            "discountPrice": 4.24,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/1XwZQYg/Picsart-24-07-02-13-04-37-750-350x350-png.webp"
+      },
+      {
+            "title": "Sofa Single Seater-Cream",
+            "category": "furniture",
+            "description": "The Sofa Single Seater in Cream provides plush comfort with its soft cushioning and elegant design. Its minimalist style and neutral tone blend seamlessly into any modern living space.",
+            "price": 44.77,
+            "oldPrice": 49.91,
             "discountPrice": 3.44,
-            "rating": 3,
-            "image": "https://i.ibb.co.com/44JMh1P/Electric-Pressure-Cooker.jpg"
+            "rating": 5,
+            "image": "https://i.ibb.co.com/VLGcZ0Q/s1.webp"
       },
       {
-            "title": "Noise Cancelling Headphones",
-            "category": "headphone",
-            "description": "Premium noise-cancelling headphones with crystal-clear sound and immersive listening experience. Ideal for travel, work, and music with long battery life and comfort-focused design.",
-            "price": 129.99,
-            "oldPrice": 199.99,
-            "discountPrice": 3.69,
+            "title": "Visitor Chair DT-1224",
+            "category": "furniture",
+            "description": "The Visitor Chair DT-1224 combines sleek design with durable construction, offering a comfortable seating experience. Its cushioned seat and sturdy frame make it ideal for waiting areas and offices.",
+            "price": 48.22,
+            "oldPrice": 55.88,
+            "discountPrice": 4.77,
+            "rating": 2,
+            "image": "https://i.ibb.co.com/KV54MTh/c3.webp"
+      },
+      {
+            "title": "Vision Glass Door Refrigerator Green",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek Green glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 122.22,
+            "oldPrice": 133.39,
+            "discountPrice": 11.34,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/Lr4zGvJ/refrigerator1.png"
+      },
+      {
+            "title": "Vision Glass Door Refrigerator White",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek White glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 139.22,
+            "oldPrice": 149.77,
+            "discountPrice": 9.34,
             "rating": 3,
-            "image": "https://i.ibb.co/9TjJ78Z/Wirles-Headphone.jpg"
+            "image": "https://i.ibb.co.com/GPHqK5m/refrigerator8.png"
+      },
+      {
+            "title": "Vision Glass Door Refrigerator Blue",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek Blue glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 149.99,
+            "oldPrice": 159.99,
+            "discountPrice": 12.34,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/2nfbF7P/refrigerator4.png"
+      },
+      {
+            "title": "Vision Glass Door Refrigerator RE-160L Blue FL-BM",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek blue glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 129.99,
+            "oldPrice": 149.99,
+            "discountPrice": 11.34,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/ggv6nvq/refrigerator2.png"
+      },
+      {
+            "title": "Vision Glass Door Refrigerator Black",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek Black glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 129.99,
+            "oldPrice": 149.99,
+            "discountPrice": 11.34,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/3vvGP1P/refrigerator3.png"
+      },
+      {
+            "title": "Samsung Galaxy A13",
+            "category": "mobile",
+            "description": "The Samsung Galaxy A13 features a 6.6-inch display, powered by an Exynos 850 processor. It offers 4GB/6GB RAM with 64GB/128GB storage, expandable up to 1TB via microSD. The device includes a 50MP quad-camera setup and a 5000mAh battery for long-lasting use.",
+            "price": 199.99,
+            "oldPrice": 299.99,
+            "discountPrice": 4.62,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/X8FWD41/mobile1.webp"
+      },
+      {
+            "title": "Smart Walton LED TV 32 Inch",
+            "category": "electric",
+            "description": "The Smart Walton 32 Inch LED TV delivers crisp visuals and immersive sound, perfect for small to medium-sized rooms. With built-in smart features, it provides easy access to popular apps and streaming platforms for endless entertainment.",
+            "price": 300.99,
+            "oldPrice": 310.99,
+            "discountPrice": 5.62,
+            "rating": 3,
+            "image": "https://i.ibb.co.com/sRqwcWH/ledtv.webp"
+      },
+      {
+            "title": "VISION Rice Cooker 3.0 Ltr SS Blue",
+            "category": "electric",
+            "description": "A 3-liter stainless steel rice cooker in vibrant Blue, perfect for cooking and steaming. Easy to use and ideal for preparing large meals efficiently.",
+            "price": 43.12,
+            "oldPrice": 44.67,
+            "discountPrice": 3.34,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/8mXLJyx/Pressarcoker4.png"
+      },
+      {
+            "title": "Galaxy-Tab-S6-Lite",
+            "category": "mobile",
+            "description": "The Samsung Galaxy Tab S6 Lite comes with 4GB of RAM and 64GB/128GB storage, expandable up to 1TB via microSD. It features a 10.4-inch display, an 8MP rear camera, and a 7040mAh battery for all-day use.",
+            "price": 331.33,
+            "oldPrice": 350.99,
+            "discountPrice": 4.62,
+            "rating": 3,
+            "image": "https://i.ibb.co.com/JkjxZ77/Galaxy-Tab-S6-Lite.webp"
+      },
+      {
+            "title": "Samsung-Galaxy-S23-Ultra",
+            "category": "mobile",
+            "description": "The Samsung Galaxy S23 Ultra offers 8GB/12GB of RAM and 256GB/512GB/1TB of internal storage. It features a 6.8-inch Dynamic AMOLED 2X display, a 200MP quad-camera system, and a 5000mAh battery with fast charging.",
+            "price": 1924.00,
+            "oldPrice": 1928.44,
+            "discountPrice": 5.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/n7QXn3L/Samsung-Galaxy-S23-Ultra.webp"
+      },
+      {
+            "title": "Samsung-Galaxy-S22-Ultra-5-G",
+            "category": "mobile",
+            "description": "The Samsung Galaxy S22 Ultra 5G comes with 8GB/12GB of RAM and 128GB/256GB/512GB/1TB of storage. It features a 6.8-inch Dynamic AMOLED display, a 108MP quad-camera system, and a 5000mAh battery with fast charging.",
+            "price": 1466.00,
+            "oldPrice": 1469.91,
+            "discountPrice": 5.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/ZfG7Qwq/Samsung-Galaxy-S22-Ultra-5-G.webp"
+      },
+      {
+            "title": "VISION Electric Kettle Red",
+            "category": "electric",
+            "description": "A fast-boiling electric kettle with a sleek Red design, ideal for heating water in minutes. Perfect for making tea, coffee, or instant meals effortlessly.",
+            "price": 26.12,
+            "oldPrice": 27.67,
+            "discountPrice": 2.34,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/B23jn4H/kettle3.png"
+      },
+      {
+            "title": "Samsung-Galaxy-S24-Ultra",
+            "category": "mobile",
+            "description": "The Samsung Galaxy S24 Ultra comes with 12GB of RAM and 256GB/512GB/1TB of internal storage. It features a 6.8-inch Dynamic AMOLED 2X display, a 200MP quad-camera system, and a 5000mAh battery with fast charging support.",
+            "price": 2033.00,
+            "oldPrice": 2035.44,
+            "discountPrice": 5.62,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/7N2nf17/Samsung-Galaxy-S24-Ultra.webp"
+      },
+      {
+            "title": "Vision Glass Door Refrigerator Green",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek green glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 169.22,
+            "oldPrice": 179.77,
+            "discountPrice": 12.34,
+            "rating": 5,
+            "image": "https://i.ibb.co.com/2MvHg0n/refrigerator7.png"
+      },
+      {
+            "title": "ViGO Pressure Cooker 3L",
+            "category": "electric",
+            "description": "A durable 3-liter pressure cooker designed for fast and efficient cooking. Ideal for preparing a variety of meals while saving time and energy.",
+            "price": 34.22,
+            "oldPrice": 36.77,
+            "discountPrice": 2.34,
+            "rating": 2,
+            "image": "https://i.ibb.co.com/sQ4n6K0/Pressarcoker1.png"
       },
       {
             "title": "Smart phone 128GB",
@@ -80,24 +310,44 @@
             "image": "https://i.ibb.co/pjvwrY5/Phone.jpg"
       },
       {
-            "title": "Analog Watch",
-            "category": "watch",
-            "description": "Classic analog watch with a timeless design, featuring a sleek dial and durable strap. Perfect for everyday wear, blending elegance with functionality.",
-            "price": 19.99,
-            "oldPrice": 22.99,
-            "discountPrice": 2.65,
+            "title": "Vision Glass Door Refrigerator Red",
+            "category": "electric",
+            "description": "A 160L refrigerator with a sleek Red glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 159.99,
+            "oldPrice": 169.99,
+            "discountPrice": 13.34,
             "rating": 2,
-            "image": "https://i.ibb.co.com/yW1YR3w/analog-watch.jpg"
+            "image": "https://i.ibb.co.com/2nfbF7P/refrigerator4.png"
       },
       {
-            "title": "Smart Vision LED TV",
-            "category": "tv",
-            "description": "The Smart Vision LED TV offers stunning picture quality with vibrant colors and sharp details, enhancing your viewing experience. With its sleek design and smart features, it seamlessly integrates into your home, providing access to a wide range of apps and streaming services.",
-            "price": 396.99,
-            "oldPrice": 455.99,
-            "discountPrice": 8.62,
+            "title": "Ergonomic Chair DT-909",
+            "category": "furniture",
+            "description": "The Ergonomic Chair DT-909 offers superior lumbar support with adjustable features for optimal comfort. Designed for long hours of use, it promotes healthy posture and reduces strain.",
+            "price": 44.99,
+            "oldPrice": 48.33,
+            "discountPrice": 5.3,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/cXDsGVv/c1.webp"
+      },
+      {
+            "title": "Samsung Galaxy A04s",
+            "category": "mobile",
+            "description": "The Samsung Galaxy A04s comes with 3GB/4GB RAM and 32GB/64GB storage, expandable up to 1TB via microSD. It features a 50MP triple-camera system and a 5000mAh battery for long-lasting performance.",
+            "price": 244.22,
+            "oldPrice": 245.99,
+            "discountPrice": 3.62,
+            "rating": 4,
+            "image": "https://i.ibb.co.com/GPygQNq/mobile3.png"
+      },
+      {
+            "title": "VISION Electric Kettle ",
+            "category": "electric",
+            "description": "A fast-boiling electric kettle with a sleek design, ideal for heating water in minutes. Perfect for making tea, coffee, or instant meals effortlessly.",
+            "price": 24.12,
+            "oldPrice": 27.67,
+            "discountPrice": 2.34,
             "rating": 5,
-            "image": "https://i.ibb.co.com/c89W7QY/visionled.jpg"
+            "image": "https://i.ibb.co.com/ZxyVtnc/kettle2.png"
       },
       {
             "title": "iphone 16 Pro Max",
@@ -110,284 +360,53 @@
             "image": "https://i.ibb.co.com/L6dhV80/iphone.jpg"
       },
       {
-            "title": "Smart LED TV 55 Inch",
-            "category": "tv",
-            "description": "Experience immersive viewing with the 55-inch Smart LED TV, featuring 4K Ultra HD resolution and vibrant colors. Enjoy seamless streaming, voice control, and smart home integration for ultimate entertainment.",
-            "price": 359.99,
-            "oldPrice": 499.99,
-            "discountPrice": 9.62,
-            "rating": 5,
-            "image": "https://i.ibb.co/6mrww7F/LED-TV.jpg"
-      },
-      {
-            "title": "Smart Minister LED TV 32 Inch",
-            "category": "tv",
-            "description": "The Smart Minister 32 Inch LED TV delivers crisp visuals and immersive sound, perfect for small to medium-sized rooms. With built-in smart features, it provides easy access to popular apps and streaming platforms for endless entertainment.",
-            "price": 299.99,
-            "oldPrice": 373.99,
-            "discountPrice": 5.62,
-            "rating": 5,
-            "image": "https://i.ibb.co.com/7t2t7dk/ministerled.jpg"
-      },
-      {
-            "title": "Portable Air Purifier",
+            "title": "VISION Electric Kettle",
             "category": "electric",
-            "description": "Compact and efficient, the portable air purifier removes dust, allergens, and odors with advanced HEPA filtration. Ideal for home, office, or travel, ensuring fresh and clean air wherever you go.",
-            "price": 79.99,
-            "oldPrice": 129.99,
-            "discountPrice": 3.66,
-            "rating": 4,
-            "image": "https://i.ibb.co/nQ2HZ6N/Best-Air-Purifiers-For-Large-Rooms.png"
-      },
-      {
-            "title": "Gaming Laptop",
-            "category": "tv",
-            "description": "High-performance gaming laptop with powerful graphics, fast processing, and RGB keyboard. Built for immersive gaming, offering smooth gameplay and advanced cooling for extended sessions.",
-            "price": 1199.99,
-            "oldPrice": 1499.99,
-            "discountPrice": 8.66,
-            "rating": 4,
-            "image": "https://i.ibb.co/VYNdCxq/Gaming-Laptop.jpg"
-      },
-      {
-            "title": "Wireless Charger",
-            "category": "electric",
-            "description": "Effortless wireless charger compatible with Qi-enabled devices, offering fast and efficient charging. Sleek and compact design ensures a clutter-free space while keeping your devices powered up.",
-            "price": 24.99,
-            "oldPrice": 34.99,
-            "discountPrice": 1.26,
-            "rating": 4,
-            "image": "https://i.ibb.co/Gnqtgrs/Wireles-Charger.jpg"
-      },
-      {
-            "title": "Bluetooth Speaker",
-            "category": "headphone",
-            "description": "Portable Bluetooth speaker with rich sound quality and deep bass, perfect for music on the go. Water-resistant design and long battery life make it ideal for outdoor adventures and parties.",
-            "price": 39.99,
-            "oldPrice": 59.99,
-            "discountPrice": 4.66,
-            "rating": 5,
-            "image": "https://i.ibb.co/CVHT1m6/Bluetooth-Speaker.jpg"
-      },
-      {
-            "title": "4-Slice Toaster",
-            "category": "electric",
-            "description": "Versatile 4-slice toaster with multiple browning settings for perfectly toasted bread, bagels, and more. Compact design with a high-lift lever and crumb tray for easy cleaning and convenience.",
-            "price": 49.99,
-            "oldPrice": 69.99,
-            "discountPrice": 4.46,
+            "description": "A fast-boiling electric kettle with a sleek design, ideal for heating water in minutes. Perfect for making tea, coffee, or instant meals effortlessly.",
+            "price": 22.12,
+            "oldPrice": 25.67,
+            "discountPrice": 2.34,
             "rating": 3,
-            "image": "https://i.ibb.co/9csjQpR/Drupal-Banner.jpg"
+            "image": "https://i.ibb.co.com/fNR4fYX/kettle1.png"
       },
       {
-            "title": "Smart watch",
-            "category": "watch",
-            "description": "Stylish smartwatch that tracks fitness, heart rate, and notifications, keeping you connected on the go. With customizable watch faces and long battery life, its perfect for both workouts and daily wear.",
-            "price": 199.99,
-            "oldPrice": 249.99,
-            "discountPrice": 2.66,
-            "rating": 5,
-            "image": "https://i.ibb.co/XLd51dt/Digital-Watch.png"
-      },
-      {
-            "title": "Cordless Vacuum Cleaner",
-            "category": "electric",
-            "description": "Powerful cordless vacuum cleaner designed for effortless cleaning with strong suction and versatile attachments. Lightweight and easy to maneuver, it provides deep cleaning on all surfaces without the hassle of cords.",
-            "price": 159.99,
-            "oldPrice": 199.99,
-            "discountPrice": 5.76,
-            "rating": 2,
-            "image": "https://i.ibb.co/vBM17WB/Cleaner-Machine.jpg"
-      },
-      {
-            "title": "Home Security Camera",
-            "category": "tv",
-            "description": "Reliable home security camera with high-definition video and night vision for 24/7 monitoring. Easy setup and mobile app integration allow you to keep an eye on your home from anywhere.",
-            "price": 79.99,
-            "oldPrice": 99.99,
-            "discountPrice": 2.76,
-            "rating": 4,
-            "image": "https://i.ibb.co/gz69sBK/Security-Camera-group.jpg"
-      },
-      {
-            "title": "Electric Toothbrush",
-            "category": "electric",
-            "description": "Advanced electric toothbrush with multiple brushing modes and a timer for optimal oral care. Ergonomic design and long battery life ensure a thorough clean and a brighter smile every day.",
-            "price": 29.99,
-            "oldPrice": 49.99,
-            "discountPrice": 1.66,
-            "rating": 5,
-            "image": "https://i.ibb.co/mtw1x0s/Electric-Brush.jpg"
-      },
-      {
-            "id": 19,
-            "title": "Tablet 10.1 Inch",
+            "title": "Samsung-Galaxy-Tab-A9",
             "category": "mobile",
-            "description": "Versatile 10.1-inch tablet with vibrant display and powerful performance, perfect for browsing, streaming, and productivity. Lightweight and portable, it offers seamless multitasking and long battery life for on-the-go use.",
-            "price": 199.99,
-            "oldPrice": 299.99,
+            "description": "The Samsung Galaxy Tab A9 offers 4GB of RAM and 64GB/128GB storage, expandable up to 1TB via microSD. It features an 8.7-inch display and a 5100mAh battery, providing a smooth experience for everyday use.",
+            "price": 288.33,
+            "oldPrice": 290.99,
             "discountPrice": 4.62,
             "rating": 4,
-            "image": "https://i.ibb.co/mB9JLvz/51-Eh-WS9p-Rn-L-AC-UF894-1000-QL80.jpg"
+            "image": "https://i.ibb.co.com/nDJ5krX/Samsung-Galaxy-Tab-A9.webp"
       },
       {
-            "title": "Espresso Machine",
+            "title": "Vision Glass Door Refrigerator Blue",
             "category": "electric",
-            "description": "Brew barista-quality coffee at home.",
-            "price": 249.99,
-            "oldPrice": 349.99,
-            "discountPrice": 5.36,
+            "description": "A 160L refrigerator with a sleek blue glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 169.99,
+            "oldPrice": 179.99,
+            "discountPrice": 11.34,
             "rating": 3,
-            "image": "https://i.ibb.co/8jyBr0T/Pexels-Chevanon.jpg"
+            "image": "https://i.ibb.co.com/ggv6nvq/refrigerator2.png"
       },
       {
-            "title": "Wireless Keyboard and Mouse",
+            "title": "Vision Glass Door Refrigerator White",
             "category": "electric",
-            "description": "Sleek wireless keyboard and mouse combo designed for comfort and efficiency, featuring quiet keys and ergonomic design. Easy plug-and-play connectivity ensures a clutter-free workspace for seamless productivity.",
-            "price": 39.99,
-            "oldPrice": 59.99,
-            "discountPrice": 2.77,
-            "rating": 2,
-            "image": "https://i.ibb.co.com/pRmY5wh/Wireless-Keyboard-and-Mouse.jpg"
-      },
-      {
-            "title": "Outdoor Security Light",
-            "category": "tv",
-            "description": "Bright outdoor security light with motion detection and adjustable brightness, enhancing safety around your home. Weather-resistant design ensures reliable performance in any environment, providing peace of mind day and night.",
-            "price": 34.99,
-            "oldPrice": 49.99,
-            "discountPrice": 1.45,
-            "rating": 4,
-            "image": "https://i.ibb.co.com/xjnDBYY/Outdoor-Security-Light.jpg"
-      },
-      {
-            "title": "Digital Picture Frame",
-            "category": "electric",
-            "description": "Stylish digital picture frame that displays your favorite photos with vibrant clarity and customizable slideshow settings. Easy to use with Wi-Fi connectivity, allowing you to share memories directly from your smartphone.",
-            "price": 99.99,
-            "oldPrice": 149.99,
-            "discountPrice": 2.44,
-            "rating": 5,
-            "image": "https://i.ibb.co.com/PN4jgfB/Digital-Picture-Frame.jpg"
-      },
-      {
-            "title": "Portable Power Bank",
-            "category": "electric",
-            "description": "Compact portable power bank with high-capacity battery for charging devices on the go. Dual USB ports allow simultaneous charging, making it perfect for travel, emergencies, or outdoor adventures.",
-            "price": 24.99,
-            "oldPrice": 39.99,
-            "discountPrice": 2.66,
-            "rating": 4,
-            "image": "https://i.ibb.co.com/h8w5Vjx/Portable-Power-Bank.jpg"
-      },
-      {
-            "title": "Smart Thermostat",
-            "category": "electric",
-            "description": "Energy-efficient smart thermostat that learns your preferences and optimizes heating and cooling for maximum comfort. Easily controlled via smartphone app, ensuring a cozy home while saving on energy bills.",
-            "price": 149.99,
-            "oldPrice": 199.99,
-            "discountPrice": 2.98,
+            "description": "A 160L refrigerator with a sleek White glass door design, offering efficient cooling and ample storage. Ideal for modern kitchens with its stylish and functional build.",
+            "price": 139.22,
+            "oldPrice": 149.77,
+            "discountPrice": 9.34,
             "rating": 3,
-            "image": "https://i.ibb.co.com/brfcb5t/Smart-Thermostat.jpg"
+            "image": "https://i.ibb.co.com/GPHqK5m/refrigerator8.png"
       },
       {
-            "title": "Electric Griddle",
+            "title": "VISION Rice Cooker 3.0 Ltr SS Red",
             "category": "electric",
-            "description": "Large electric griddle with a non-stick surface, perfect for cooking breakfast favorites like pancakes, eggs, and bacon. Adjustable temperature control and easy-to-clean design make meal prep a breeze for family gatherings.",
-            "price": 49.99,
-            "oldPrice": 79.99,
-            "discountPrice": 2.12,
-            "rating": 5,
-            "image": "https://example.com/images/griddle.jpg"
-      },
-      {
-            "title": "Smart Doorbell",
-            "category": "electric",
-            "description": "Smart doorbell with HD video and two-way audio, allowing you to see and speak to visitors from your smartphone. Motion detection and night vision enhance home security, ensuring peace of mind day and night.",
-            "price": 89.99,
-            "oldPrice": 129.99,
-            "discountPrice": 1.66,
-            "rating": 3,
-            "image": "https://i.ibb.co.com/9cQCK3R/Smart-Doorbell.jpg"
-      },
-      {
-            "title": "Home Theater System",
-            "category": "electric",
-            "description": "Immersive home theater system with surround sound and high-definition audio, delivering a cinematic experience right at home. Easy setup and connectivity options enhance your entertainment with movies, music, and gaming.",
-            "price": 299.99,
-            "oldPrice": 399.99,
-            "discountPrice": 5.66,
-            "rating": 2,
-            "image": "https://i.ibb.co.com/yk1nNz3/Home-Theater-System.jpg"
-      },
-      {
-            "title": "Smart Mirror",
-            "category": "electric",
-            "description": "Innovative smart mirror featuring a touch screen, customizable lighting, and voice control for a seamless grooming experience. Display weather, news, and personal reminders while enhancing your bathroom decor with modern technology.",
-            "price": 149.99,
-            "oldPrice": 199.99,
-            "discountPrice": 3.66,
-            "rating": 3,
-            "image": "https://i.ibb.co.com/Dfj5MvL/Smart-Mirror.jpg"
-      },
-      {
-            "title": "Portable Bluetooth Printer",
-            "category": "electric",
-            "description": "Compact portable Bluetooth printer that easily connects to your smartphone for instant photo printing. Lightweight and user-friendly, its perfect for capturing and sharing memories on the go.",
-            "price": 99.99,
-            "oldPrice": 149.99,
-            "discountPrice": 3.96,
+            "description": "A 3-liter stainless steel rice cooker in vibrant red, perfect for cooking and steaming. Easy to use and ideal for preparing large meals efficiently.",
+            "price": 35.22,
+            "oldPrice": 39.77,
+            "discountPrice": 4.34,
             "rating": 4,
-            "image": "https://i.ibb.co.com/g3D25PR/Portable-Bluetooth-Printer.jpg"
-      },
-      {
-            "title": "Electric Blanket",
-            "category": "electric",
-            "description": "Cozy electric blanket with adjustable heat settings, providing warmth and comfort during chilly nights. Soft and lightweight fabric makes it perfect for snuggling up on the couch or in bed.",
-            "price": 79.99,
-            "oldPrice": 119.99,
-            "discountPrice": 2.68,
-            "rating": 4,
-            "image": "https: //i.ibb.co.com/nrYF8vQ/Electric-Blanket.png"
-      },
-      {
-            "title": "USB-C Hub",
-            "category": "electric",
-            "description": "Versatile USB-C hub that expands your device's connectivity with multiple ports for USB, HDMI, and SD cards. Compact and portable design makes it perfect for home, office, or travel, enhancing your productivity effortlessly.",
-            "price": 29.99,
-            "oldPrice": 49.99,
-            "discountPrice": 1.34,
-            "rating": 5,
-            "image": "https://i.ibb.co.com/qx0vV6h/USB-C-Hub.jpg"
-      },
-      {
-            "title": "Noise Cancelling Earplugs",
-            "category": "electric",
-            "description": "Comfortable noise-cancelling earplugs designed to block out disruptive sounds for better focus and relaxation. Ideal for sleeping, studying, or traveling, they provide a peaceful environment wherever you go.",
-            "price": 24.99,
-            "oldPrice": 39.99,
-            "discountPrice": 2.55,
-            "rating": 4,
-            "image": "https://i.ibb.co.com/P94ZH7X/Noise-Cancelling-Earplugs.jpg"
-      },
-      {
-            "title": "Rechargeable Flashlight",
-            "category": "electric",
-            "description": "Powerful rechargeable flashlight with adjustable brightness and durable construction for reliable performance in any situation. Compact and portable design makes it perfect for camping, emergencies, or everyday use.",
-            "price": 39.99,
-            "oldPrice": 59.99,
-            "discountPrice": 2.66,
-            "rating": 5,
-            "image": "https://i.ibb.co.com/G9ct8Zb/Rechargeable-Flashlight.jpg"
-      },
-      {
-            "title": "Smart Plug",
-            "category": "electric",
-            "description": "Convenient smart plug that allows you to control devices remotely via smartphone or voice assistant. Schedule timers and monitor energy usage, making your home smarter and more energy-efficient.",
-            "price": 14.99,
-            "oldPrice": 24.99,
-            "discountPrice": 1.66,
-            "rating": 3,
-            "image": "https://i.ibb.co.com/x8GhnSd/Smart-Plug.jpg"
+            "image": "https://i.ibb.co.com/sHP9Lph/Pressarcoker3.png"
       }
 ]

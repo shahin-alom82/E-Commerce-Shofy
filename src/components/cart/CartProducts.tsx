@@ -9,7 +9,6 @@ import CartSummary from "./CartSummary";
 
 const CartProducts = () => {
   const { cart } = useSelector((state: any) => state.shofy);
-
   return (
     <div>
       <Container className="py-16">
@@ -19,7 +18,7 @@ const CartProducts = () => {
               Shopping Cart
             </h1>
             <div className="flex flex-col lg:flex-row justify-between gap-6 mt-10">
-              <div className="w-full lg:w-2/3 border-t-2 border-r-2 border-l-2 border-gray-300">
+              <div className="w-full lg:w-2/3">
                 {cart.map((product : any) => (
                   <CartProduct key={product?.id} product={product} />
                 ))}

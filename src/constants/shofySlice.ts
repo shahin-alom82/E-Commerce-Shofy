@@ -59,12 +59,23 @@ export const shofySlice = createSlice({
 
             removeUser: (state) => {
                   state.userInfo = null
-            }
+            },
+
+
+            saveOrder: (state, action) => {
+                  //@ts-ignore
+                  state.orderShopping = action.payload
+            },
+
+            resetOrder: (state) => {
+                  //@ts-ignore
+                  state.cart = [];
+            },
 
       }
 
 
 })
 
-export const { addToUser, removeUser, addToCart, decrease, increase, cartDelete } = shofySlice.actions;
+export const { addToUser, removeUser, addToCart, decrease, increase, cartDelete, resetOrder, saveOrder } = shofySlice.actions;
 export default shofySlice.reducer;

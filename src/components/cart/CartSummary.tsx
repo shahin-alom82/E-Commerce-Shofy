@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import PriceFormate from "../ui/PriceFormate";
 import { useSession } from "next-auth/react";
 import { loadStripe } from "@stripe/stripe-js";
+import { useDispatch } from "react-redux";
 
 interface Props {
       cart: ProductType[];
@@ -35,11 +36,8 @@ const CartSummary = ({ cart }: Props) => {
 
 
 
-
-
       // payment
       const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
-
       const handleCheakOut = async () => {
             const stripe = await stripePromise;
             const response = await fetch("/api/checkout", {
@@ -53,11 +51,8 @@ const CartSummary = ({ cart }: Props) => {
                   })
             })
             const data = await response.json();
-            console.log('data', data);
-
             if (response.ok) {
                   stripe?.redirectToCheckout({ sessionId: data.id });
-
             }
             else {
                   throw new Error("Failed to create Stripe Payment");
